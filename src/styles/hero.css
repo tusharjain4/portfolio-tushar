@@ -2,6 +2,40 @@
   overflow-x: clip;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.hero-title-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  width: 100%;
+}
+
 .hero-hello,
 .hero-im,
 .title-nikita {
@@ -11,8 +45,14 @@
   letter-spacing: -0.02em;
 }
 
-.hero-name-row {
-  font-family: var(--font-display);
+.hero-im {
+  margin-top: -0.15em;
+}
+
+.title-nikita {
+  align-self: stretch;
+  text-align: right;
+  width: 100%;
 }
 
 .hero-role-pills .role-pill p {
@@ -37,23 +77,15 @@
   max-width: 11rem;
 }
 
-.hero-bottom-row {
-  display: grid;
-  grid-template-columns: auto 1fr minmax(17.5rem, 30.875rem);
-  gap: 1.875rem;
-  align-items: end;
-  width: 100%;
-}
-
 .hero-image {
-  min-width: 0;
+  width: 100%;
+  max-width: 32.625rem;
 }
 
 .hero-image img {
   display: block;
   width: 100%;
-  max-height: 20rem;
-  aspect-ratio: 4 / 3;
+  height: auto;
   object-fit: cover;
 }
 
@@ -69,18 +101,39 @@
   overflow: hidden;
 }
 
-@media (max-width: 900px) {
-  .hero-bottom-row {
-    grid-template-columns: 1fr;
-    align-items: start;
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.75rem;
   }
 
-  .hero-name-row {
-    flex-direction: column;
+  .hero-left {
+    flex: 1 1 58%;
+    max-width: 62%;
+    margin-bottom: 5rem;
+  }
+
+  .hero-right {
+    flex: 1 1 38%;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title-stack {
     align-items: flex-start;
   }
 
   .title-nikita {
     text-align: left;
+  }
+
+  .hero-role-pills .role-pill-top {
+    margin-left: 0;
+  }
+
+  .hero-role-pills .role-pill-bottom {
+    margin-right: 0;
   }
 }

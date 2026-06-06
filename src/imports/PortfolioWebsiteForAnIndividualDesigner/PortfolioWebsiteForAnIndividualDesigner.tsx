@@ -57,28 +57,32 @@ function PersonalOrAgencyWebsiteHeader() {
 
 function PersonalOrCompanyWebsiteHomePageTitleSection() {
   return (
-    <div className="hero-section bg-white content-stretch flex flex-col gap-12 items-start pb-[138px] pt-12 relative shrink-0 w-full z-[4]" data-name="Personal or Company Website Home Page Title Section">
-      <div className="hero-top-row flex flex-wrap items-start justify-between gap-6 w-full">
-        <p className="hero-hello not-italic relative shrink-0 text-black whitespace-nowrap">Hello</p>
-        <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
-          <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-            <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
+    <div className="hero-section bg-white content-stretch flex flex-col pb-[138px] pt-12 relative shrink-0 w-full z-[4]" data-name="Personal or Company Website Home Page Title Section">
+      <div className="hero-content w-full">
+        <div className="hero-left">
+          <div className="hero-text-container">
+            <p className="hero-hello not-italic relative shrink-0 text-black whitespace-nowrap">Hello</p>
+            <p className="hero-im not-italic relative shrink-0 text-black">{`I'm`}</p>
           </div>
-          <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-            <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
+          <p className="hero-scroll [text-decoration-skip-ink:none] decoration-solid not-italic text-black underline shrink-0">Scroll to explore</p>
+          <div className="hero-image">
+            <img alt="" src={imgRectangle1} />
           </div>
         </div>
-      </div>
-      <div className="hero-name-row flex flex-wrap items-baseline justify-between gap-4 w-full not-italic text-black">
-        <p className="hero-im shrink-0">{`I'm `}</p>
-        <p className="title-nikita text-right break-words min-w-0 flex-1">Tushar Jain</p>
-      </div>
-      <div className="hero-bottom-row">
-        <p className="hero-scroll [text-decoration-skip-ink:none] decoration-solid not-italic text-black underline shrink-0">Scroll to explore</p>
-        <div className="hero-image">
-          <img alt="" src={imgRectangle1} />
+        <div className="hero-right">
+          <div className="hero-title-stack">
+            <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
+              <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+                <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
+              </div>
+              <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+                <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
+              </div>
+            </div>
+            <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
+          </div>
+          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">A highly motivated Software Developer with a strong academic background in Electronics and Communication Engineering, complemented by a robust foundation in data structures, algorithms, and object-oriented programming. I specialize in designing and implementing scalable backend services, optimizing API performance, and developing comprehensive full-stack applications. I am committed to delivering…</p>
         </div>
-        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is a dedicated Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He excels in architecting and deploying scalable backend services, optimizing API performance, and enhancing system efficiency across diverse platforms. His extensive full-stack experience encompasses Python, Node.js, React, and various database technologies. Tushar has a prov…</p>
       </div>
     </div>
   );
@@ -575,7 +579,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.
+        Built Python-based microservices for PDF processing and asynchronous workflows.
       </p>
     </div>
   );
