@@ -80,7 +80,7 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
             <img alt="" src={imgRectangle1} />
           </div>
         </div>
-        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is an aspiring Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He possesses strong full-stack development skills, specializing in backend services using Node.js and Python, and has experience with modern web frameworks like React and Next.js. His work includes architecting scalable systems, building microservices, designing database schem…</p>
+        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">A passionate Software Developer with experience in architecting and implementing scalable backend solutions using NestJS, Python, and Node.js. Proven ability to design comprehensive systems for healthcare platforms, ERP, and athlete management, including database schemas and API integrations. Skilled in optimizing performance, establishing CI/CD pipelines, and contributing to full-stack developme…</p>
       </div>
     </div>
   );
@@ -202,10 +202,10 @@ function PortfolioAboutSection() {
         <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Contest reminder web application</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer.</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer for prompt delivery of reminders and updates.</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src="https://adizen-test.blr1.cdn.digitaloceanspaces.com/erpl-test-media/7136bddc-c555-40a5-b6b0-21341fad63d7.png" />
       </div>
     </div>
         <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
@@ -230,7 +230,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Therapist Email Communication from Platform</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Booking Cancellation Reason & Action-Based Reminder Notifications</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Trijog, I delivered key enhancements to their platform, focusing on improving corporate client management and</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Trijog, I delivered key enhancements to their platform, focusing on both corporate and internal</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
@@ -245,7 +245,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Configure AI Intent detection in conversation engine</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Implement Appointment Booking Flow in Conversation Engine</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For YOS SPORTS HEALTH SPECIALISTS, I developed a WhatsApp-based system for streamlined appointment and</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For YOS SPORTS HEALTH SPECIALISTS, I delivered significant enhancements to their core systems. This included</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
@@ -260,7 +260,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Integrate callbacks for tata aig app</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Implement and test all share platforms</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For FinCocktail, I delivered a robust infrastructure overhaul, migrating their platform to a dedicated</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For FinCocktail, I delivered a comprehensive infrastructure and feature upgrade, including integrating with the</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
@@ -275,7 +275,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Research the architecture of Support of Copilot on Project Specific</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">BD: Package creation dependent options</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen - ERP Lite, I contributed to enhancing their ERP platform by improving HR workflow flexibility</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen - ERP Lite, I contributed to foundational architectural planning for an AI Copilot, including research</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
@@ -290,7 +290,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Understand requirements and create Demo</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Create Adizen UI library and send deck to Jashan</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen, we successfully developed a comprehensive UI library, providing a standardized set of user interface components to</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen, we developed a custom demo after understanding specific requirements, showcasing their capabilities effectively</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
@@ -305,7 +305,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Add Support for PDF Extraction - Cupping score</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">HRVZT MVP</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For HRVZT's MVP, we enhanced seller capabilities by implementing a PDF upload option for geojson file</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For HRVZT's MVP, I developed features that enabled sellers to upload PDF files containing geojson data</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
@@ -320,7 +320,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Project LMS</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Deliverables</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Sagar Mein Yog, this professional completed various tasks related to API integration for their Project LMS. This</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Sagar Mein Yog's Project LMS, I successfully completed the API integration work. This foundational deliver</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
@@ -335,7 +335,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Adizen v2</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Test Module 2</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Utkarsh Testing's Adizen v2, I delivered essential database and backend modifications to</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Utkarsh Testing, I delivered essential database and backend system updates to incorporate robust customer identification</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
@@ -350,7 +350,7 @@ function PortfolioAboutSection() {
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">General work</p>
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Deliverables</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Independent, I delivered a bespoke Ring Creation project, expertly crafting a unique piece centered around</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Independent, I designed and delivered a bespoke ring, precisely crafted to feature their gemstone. This project provided</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
@@ -616,7 +616,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Adizen, we successfully developed a comprehensive UI library. This foundational work, complete with a detailed presentation
+        For Adizen, I supported business development initiatives by creating a comprehensive demo to showcase their capabilities to prospective clients
       </p>
     </div>
   );
@@ -730,7 +730,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Trijog, I delivered key features to enhance their corporate client management and internal operational efficiency.
+        For Trijog, I delivered key enhancements to their Zenflow platform, focusing on both B2
       </p>
     </div>
   );
