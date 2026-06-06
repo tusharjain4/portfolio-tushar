@@ -73,15 +73,15 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
           <div className="hero-title-stack">
             <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
               <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-                <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
+                <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software Developer</p>
               </div>
               <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-                <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
+                <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">(SDE-1)</p>
               </div>
             </div>
             <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
           </div>
-          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">An aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. Proven ability to design and implement scalable backend services, build robust microservices, and optimize system performance. Recognized for achievements in AI/ML-based recommender systems and selection for Amazon ML Summer School. Enthusiastic about continuous learning and applying bes…</p>
+          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is an aspiring Software Developer with a strong foundation in backend development, microservices architecture, and full-stack application development. He excels at designing and implementing scalable solutions, optimizing performance, and contributing to robust system designs. With experience across various internships and a current SDE-1 role, Tushar has a proven track record of deli…</p>
         </div>
       </div>
     </div>
@@ -99,9 +99,9 @@ function Frame20() {
 function Frame16() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">Client-Specific Feedback Mapping & Association</p>
-      <p className="relative shrink-0">Therapist Email Communication from Platform</p>
-      <p className="relative shrink-0">Booking Cancellation Reason & Action-Based Reminder Notifications</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
     </div>
   );
 }
@@ -109,7 +109,7 @@ function Frame16() {
 function Frame17() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Trijog</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Project Title</p>
       <Frame16 />
     </div>
   );
@@ -133,9 +133,9 @@ function Frame18() {
 function Frame22() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">Setup Redis store for context storing</p>
-      <p className="relative shrink-0">Configure AI Intent detection in conversation engine</p>
-      <p className="relative shrink-0">Implement Appointment Booking Flow in Conversation Engine</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
     </div>
   );
 }
@@ -143,7 +143,7 @@ function Frame22() {
 function Frame21() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">YOS SPORTS HEALTH SPECIALISTS</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Project Title</p>
       <Frame22 />
     </div>
   );
@@ -164,9 +164,9 @@ function Frame19() {
 function Frame25() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">Setup Posthog Analytics on buttons</p>
-      <p className="relative shrink-0">Integrate callbacks for tata aig app</p>
-      <p className="relative shrink-0">Implement and test all share platforms</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
+      <p className="relative shrink-0">Keyword</p>
     </div>
   );
 }
@@ -174,7 +174,7 @@ function Frame25() {
 function Frame24() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">FinCocktail</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Project Title</p>
       <Frame25 />
     </div>
   );
@@ -197,9 +197,168 @@ function PortfolioAboutSection() {
     <div className="bg-white relative shrink-0 w-full z-[3]" data-name="Portfolio About Section">
       <div className="content-stretch flex flex-col items-start overflow-clip py-[94px] relative rounded-[inherit] size-full">
         <Frame20 />
-        <Frame18 />
-        <Frame19 />
-        <Frame23 />
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Contest-Saathi</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Contest reminder web application</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer for prompt delivery of reminders and updates.</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Insight Terminal</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">enhancing command-line efficiency</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Cobra-based CLI tool to streamline user interaction with Gemini AI, enhancing command-line efficiency. Integrated advanced natural language processing capabilities of Gemini AI to provide accurate, real-time responses and information retrieval directly within the terminal.</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Trijog</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Client-Specific Feedback Mapping & Association</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Therapist Email Communication from Platform</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Booking Cancellation Reason & Action-Based Reminder Notifications</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Trijog, I delivered key enhancements to their platform, focusing on improving corporate client</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">YOS SPORTS HEALTH SPECIALISTS</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Setup Redis store for context storing</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Configure AI Intent detection in conversation engine</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Implement Appointment Booking Flow in Conversation Engine</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For YOS SPORTS HEALTH SPECIALISTS, I developed and integrated a comprehensive refund system using Razorpay and Stripe</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">FinCocktail</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Setup Posthog Analytics on buttons</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Integrate callbacks for tata aig app</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Implement and test all share platforms</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For FinCocktail's collaboration with Tata AIG, I delivered robust infrastructure setup, including</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Adizen - ERP Lite</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Create design to HTML template on portfolio builder</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Research the architecture of Support of Copilot on Project Specific</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">BD: Package creation dependent options</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen - ERP Lite, this professional delivered key enhancements across core functionalities. They implemented dependent options for</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Adizen</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Send solitaire website (Tushar to share with Pratik)</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Understand requirements and create Demo</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Create Adizen UI library and send deck to Jashan</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Adizen, I developed a comprehensive UI library to standardize their user interface components. This included delivering the complete UI library along with a presentation deck. This</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">HRVZT</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Create Upload PDF option for geojson file for plotting</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Add Support for PDF Extraction - Cupping score</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">HRVZT MVP</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For HRVZT's MVP, I developed key features that streamlined seller operations. This included creating an</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Sagar Mein Yog</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Send Email to nitin sir on all tasks completed for API Integration</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Project LMS</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Deliverables</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Sagar Mein Yog's Project LMS, the professional is currently preparing to report on the</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle371} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Utkarsh Testing</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">DB and backend changes for customer id</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Adizen v2</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Test Module 2</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Utkarsh Testing, I delivered essential database and backend modifications to integrate customer ID functionality within their testing</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
+      </div>
+    </div>
+        <div className="portfolio-work-row content-stretch flex flex-col xl:flex-row xl:items-start xl:justify-between gap-8 py-[36px] relative shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border-[#d8d8d8] border-solid border-t inset-0 pointer-events-none" />
+      <div className="content-stretch flex flex-col font-['Manrope',sans-serif] gap-[16px] items-start leading-[1.2] not-italic relative shrink-0 text-black xl:max-w-[520px] z-[1] min-w-0">
+        <p className="relative shrink-0 text-[24px] font-semibold tracking-[4.08px] uppercase">Independent</p>
+        <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Ring Creation for Gemstone</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">General work</p>
+          <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Deliverables</p>
+        </div>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">For Independent, this professional successfully completed the creation of a custom ring designed to perfectly showcase a gemstone. This</p>
+      </div>
+      <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle370} />
+      </div>
+    </div>
+        
       </div>
       <div aria-hidden="true" className="absolute border-b border-black border-solid inset-0 pointer-events-none" />
     </div>
@@ -225,8 +384,8 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Languages</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: C++, Go, Python, JavaScript, TypeScript</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
     </div>
   );
 }
@@ -259,8 +418,8 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node.js, Next.js, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
     </div>
   );
 }
@@ -293,8 +452,8 @@ function Frame32() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
     </div>
   );
 }
@@ -327,8 +486,8 @@ function Frame35() {
 function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Professional Tools</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: BD Task, Send, solitaire, website, (Tushar, to, share, with</p>
     </div>
   );
 }
@@ -429,9 +588,6 @@ function TextContent() {
       <p className="font-['Archivo',sans-serif] font-extrabold journey-institution relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Adizen
       </p>
-      <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        1920 - 1924
-      </p>
     </div>
   );
 }
@@ -462,7 +618,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Adizen, this individual significantly contributed to Business Development initiatives by developing a foundational UI library, enhancing product
+        For Adizen, we developed and delivered a comprehensive UI library, providing them with a standardized set
       </p>
     </div>
   );
@@ -546,9 +702,6 @@ function TextContent1() {
       <p className="font-['Archivo',sans-serif] font-extrabold journey-institution relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Trijog
       </p>
-      <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        1920 - 1924
-      </p>
     </div>
   );
 }
@@ -579,7 +732,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Trijog, I delivered comprehensive full-stack development across their Zenflow v2 platform,
+        For Trijog, I delivered key enhancements to their Zenflow platform, focusing on both B2B
       </p>
     </div>
   );

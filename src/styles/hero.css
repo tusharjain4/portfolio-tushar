@@ -153,3 +153,18 @@
     margin-right: 0;
   }
 }
+
+.portfolio-work-row {
+  width: 100%;
+  min-width: 0;
+}
+
+.portfolio-work-row .work-summary {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1279px) {
+  .portfolio-work-image {
+    width: 100% !important;
+  }
+}
