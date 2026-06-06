@@ -1,16 +1,16 @@
 {
   "name": "Tushar Jain",
   "role": "Software Developer",
-  "tagline": "A results-driven Software Developer specializing in building scalable backend services, microservices, and full-stack applications with expertise in modern web technologies and AI/ML integrations.",
-  "about": "Tushar Jain is an aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. He demonstrates proficiency in designing, architecting, and developing scalable backend systems using NestJS, Node.js, and Python, and building robust full-stack applications with React. Tushar excels in establishing CI/CD pipelines, optimizing API performance, and implementing secure, efficient solutions. His passion extends to AI/ML, evidenced by achieving Semi-Finalist status in Flipkart Grid 5.0 and selection for the Amazon ML Summer School 2024, showcasing a commitment to cutting-edge technology and innovation.\n\nFor Adizen, this individual has significantly contributed to Business Development initiatives by establishing foundational technical assets and enabling For Trijog, I have significantly contributed to the Zenflow v2 platform, enhancing its functionality\n\nFor Adizen's Business Development epic, this individual has significantly contributed by developing a foundational UI library and For Trijog, I have significantly contributed to the Zenflow v2 platform, developing and",
-  "experience": 2,
+  "tagline": "A passionate Software Developer specializing in backend services, microservices, and full-stack development with expertise in NestJS, Node.js, Python, React, and MongoDB.",
+  "about": "An aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. Proven ability to design and implement scalable backend services, build robust microservices, and optimize system performance. Recognized for achievements in AI/ML-based recommender systems and selection for Amazon ML Summer School. Enthusiastic about continuous learning and applying best practices to complex engineering challenges.\n\nFor Adizen, this individual has significantly contributed to Business Development initiatives by establishing foundational technical assets and client For Trijog, I delivered extensive full-stack development across the Zenflow platform, enhancing critical\n\nFor Adizen, this individual significantly contributed to Business Development initiatives by developing a foundational UI library, enhancing product For Trijog, I delivered comprehensive full-stack development across their Zenflow v2 platform,",
+  "experience": 1.75,
   "currentRole": "Software Developer (SDE-1) at Adizen",
   "highlights": [
     "Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.",
-    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.",
+    "Built Python-based microservices for PDF processing and asynchronous workflows.",
     "Designed backend systems for a healthcare platform (Trijog), including booking, invoicing, and communication pipelines.",
-    "Established CI/CD pipelines using GitHub Actions and backend testing workflows, improving deployment reliability and system stability.",
-    "Developed backend modules for an ERP system (ERPLite) with reporting capabilities."
+    "Established CI/CD pipelines using GitHub Actions and backend testing workflows, improving deployment reliability.",
+    "Contributed to an ERP system and Athlete Management System (AMS), enhancing data handling and workflow management."
   ],
   "skills": [
     {
@@ -27,8 +27,8 @@
       "name": "Frameworks",
       "skills": [
         "React",
-        "Node",
-        "Next",
+        "Node.js",
+        "Next.js",
         "Angular",
         "Express",
         "Mocha",
@@ -59,7 +59,8 @@
         "Docker",
         "Kubernetes",
         "Azure",
-        "Digital Ocean Supabase",
+        "Digital Ocean",
+        "Supabase",
         "Prometheus"
       ]
     },
@@ -79,32 +80,30 @@
   ],
   "projects": [
     {
-      "name": "Contest-Saathi",
-      "description": "A contest reminder web application incorporating personalized email notifications for real-time updates. Successfully established a dedicated user base of over 50 active subscribers by facilitating timely contest notifications via Nodemailer.",
+      "name": "Trijog",
+      "description": "For Trijog, I delivered comprehensive full-stack development across their Zenflow v2 platform,",
       "tech": [
-        "MongoDB",
-        "Node",
-        "Express",
-        "React with SSR",
-        "JWT",
-        "Docker",
-        "Azure"
+        "Client-Specific Feedback Mapping & Association",
+        "Therapist Email Communication from Platform",
+        "Booking Cancellation Reason & Action-Based Reminder Notifications"
       ]
     },
     {
-      "name": "Insight Terminal",
-      "description": "A Cobra-based CLI tool designed to streamline user interaction with Gemini AI, enhancing command-line efficiency. It integrates advanced natural language processing capabilities of Gemini AI to provide accurate, real-time responses and information retrieval directly within the terminal.",
+      "name": "YOS SPORTS HEALTH SPECIALISTS",
+      "description": "For YOS SPORTS HEALTH SPECIALISTS, this individual has significantly enhanced core business operations by integrating critical payment systems",
       "tech": [
-        "Go",
-        "Cobra CLI",
-        "Gemini AI"
+        "Setup Redis store for context storing",
+        "Configure AI Intent detection in conversation engine",
+        "Implement Appointment Booking Flow in Conversation Engine"
       ]
     },
     {
-      "name": "Adizen · BD",
-      "description": "For Adizen, this individual has significantly contributed to Business Development initiatives by establishing foundational technical assets and enabling",
+      "name": "FinCocktail",
+      "description": "For FinCocktail's 'FinCocktail X Tata AIG' epic, I",
       "tech": [
-        "BD Task"
+        "Setup Posthog Analytics on buttons",
+        "Integrate callbacks for tata aig app",
+        "Implement and test all share platforms"
       ]
     }
   ],
@@ -143,7 +142,7 @@
           ]
         }
       ],
-      "summary": "For Adizen's Business Development epic, this individual has significantly contributed by developing a foundational UI library and"
+      "summary": "For Adizen, this individual significantly contributed to Business Development initiatives by developing a foundational UI library, enhancing product"
     },
     {
       "companyId": 14,
@@ -414,7 +413,7 @@
           ]
         }
       ],
-      "summary": "For Trijog, I have significantly contributed to the Zenflow v2 platform, developing and"
+      "summary": "For Trijog, I delivered comprehensive full-stack development across their Zenflow v2 platform,"
     },
     {
       "companyId": 7,
@@ -511,7 +510,7 @@
           ]
         }
       ],
-      "summary": "For YOS SPORTS HEALTH SPECIALISTS, this individual significantly enhanced core business operations by integrating multiple payment gateways ("
+      "summary": "For YOS SPORTS HEALTH SPECIALISTS, this individual has significantly enhanced core business operations by integrating critical payment systems"
     },
     {
       "companyId": 9,
@@ -566,7 +565,7 @@
           ]
         }
       ],
-      "summary": "For Adizen, this individual significantly contributed to the ERP Lite ecosystem by researching Copilot integration architecture and"
+      "summary": "For Adizen - ERP Lite, this individual significantly contributed to architectural planning and feature development across key product lines"
     },
     {
       "companyId": 31,
@@ -584,7 +583,7 @@
           ]
         }
       ],
-      "summary": "For Sagar Mein Yog's Project LMS, this individual has been instrumental in the API Integration efforts. Their"
+      "summary": "For Sagar Mein Yog's Project LMS, I have completed all assigned tasks for API Integration, demonstrating strong"
     },
     {
       "companyId": 39,
@@ -609,7 +608,7 @@
           ]
         }
       ],
-      "summary": "For HRVZT's MVP, I developed key functionalities to enhance seller data management and input. This"
+      "summary": "For HRVZT's MVP, I developed a critical feature enabling sellers to upload PDF files containing geo"
     },
     {
       "companyId": 49,
@@ -676,7 +675,7 @@
           ]
         }
       ],
-      "summary": "For FinCocktail's Tata AIG integration, I delivered extensive development, infrastructure,"
+      "summary": "For FinCocktail's 'FinCocktail X Tata AIG' epic, I"
     },
     {
       "companyId": 41,
@@ -695,7 +694,7 @@
           ]
         }
       ],
-      "summary": "For Utkarsh Testing's Adizen v2 epic, I engineered comprehensive database and backend modifications"
+      "summary": "For Utkarsh Testing's Adizen v2 project, I engineered and implemented critical database"
     },
     {
       "companyId": 0,
@@ -713,7 +712,7 @@
           ]
         }
       ],
-      "summary": "For Independent, I successfully completed the intricate ring creation for a gemstone. This comprehensive project involved applying specialized design"
+      "summary": "For Independent, I successfully completed the creation of a custom ring, demonstrating expertise in bespoke jewelry design and"
     }
   ]
 }

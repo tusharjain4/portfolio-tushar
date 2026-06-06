@@ -81,7 +81,7 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
             </div>
             <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
           </div>
-          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is an aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. He demonstrates proficiency in designing, architecting, and developing scalable backend systems using NestJS, Node.js, and Python, and building robust full-stack applications with React. Tushar excels in establishing CI/CD pipelines, optimizing API performance, and impleme…</p>
+          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">An aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. Proven ability to design and implement scalable backend services, build robust microservices, and optimize system performance. Recognized for achievements in AI/ML-based recommender systems and selection for Amazon ML Summer School. Enthusiastic about continuous learning and applying bes…</p>
         </div>
       </div>
     </div>
@@ -99,9 +99,9 @@ function Frame20() {
 function Frame16() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">MongoDB</p>
-      <p className="relative shrink-0">Node</p>
-      <p className="relative shrink-0">Express</p>
+      <p className="relative shrink-0">Client-Specific Feedback Mapping & Association</p>
+      <p className="relative shrink-0">Therapist Email Communication from Platform</p>
+      <p className="relative shrink-0">Booking Cancellation Reason & Action-Based Reminder Notifications</p>
     </div>
   );
 }
@@ -109,7 +109,7 @@ function Frame16() {
 function Frame17() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Contest-Saathi</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Trijog</p>
       <Frame16 />
     </div>
   );
@@ -133,9 +133,9 @@ function Frame18() {
 function Frame22() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">Go</p>
-      <p className="relative shrink-0">Cobra CLI</p>
-      <p className="relative shrink-0">Gemini AI</p>
+      <p className="relative shrink-0">Setup Redis store for context storing</p>
+      <p className="relative shrink-0">Configure AI Intent detection in conversation engine</p>
+      <p className="relative shrink-0">Implement Appointment Booking Flow in Conversation Engine</p>
     </div>
   );
 }
@@ -143,7 +143,7 @@ function Frame22() {
 function Frame21() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Insight Terminal</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">YOS SPORTS HEALTH SPECIALISTS</p>
       <Frame22 />
     </div>
   );
@@ -164,9 +164,9 @@ function Frame19() {
 function Frame25() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">BD Task</p>
-      <p className="relative shrink-0">BD Task</p>
-      <p className="relative shrink-0">BD Task</p>
+      <p className="relative shrink-0">Setup Posthog Analytics on buttons</p>
+      <p className="relative shrink-0">Integrate callbacks for tata aig app</p>
+      <p className="relative shrink-0">Implement and test all share platforms</p>
     </div>
   );
 }
@@ -174,7 +174,7 @@ function Frame25() {
 function Frame24() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Adizen · BD</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">FinCocktail</p>
       <Frame25 />
     </div>
   );
@@ -260,7 +260,7 @@ function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
       <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node.js, Next.js, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
     </div>
   );
 }
@@ -328,7 +328,7 @@ function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
       <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
     </div>
   );
 }
@@ -462,7 +462,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Adizen's Business Development epic, this individual has significantly contributed by developing a foundational UI library and
+        For Adizen, this individual significantly contributed to Business Development initiatives by developing a foundational UI library, enhancing product
       </p>
     </div>
   );
@@ -579,7 +579,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Trijog, I have significantly contributed to the Zenflow v2 platform, developing and
+        For Trijog, I delivered comprehensive full-stack development across their Zenflow v2 platform,
       </p>
     </div>
   );
