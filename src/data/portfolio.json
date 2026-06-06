@@ -1,18 +1,28 @@
 {
   "name": "Tushar Jain",
   "role": "Software Developer",
-  "tagline": "Backend-focused Software Developer specializing in scalable systems, microservices, and AI/ML integration.",
-  "about": "Tushar Jain is an aspiring Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He possesses a strong foundation in designing and developing scalable backend services, microservices, and full-stack applications. With expertise in Python, JavaScript, and Go, Tushar has a proven track record of architecting modular systems, optimizing API performance, and establishing robust CI/CD pipelines. He has contributed to diverse projects, from healthcare platforms and ERP systems to AI/ML recommender systems, demonstrating a passion for creating efficient, secure, and high-quality software solutions.\n\nFor Adizen, this individual is actively contributing to business development initiatives by understanding client requirements and creating compelling demonstrations For Trijog, I delivered extensive full-stack development across multiple platforms and user personas, including",
-  "experience": 2.5,
+  "tagline": "A results-driven Software Developer specializing in building scalable backend services, microservices, and full-stack applications with expertise in modern web technologies and AI/ML integrations.",
+  "about": "Tushar Jain is an aspiring Software Developer with a strong academic background in Electronics and Communication Engineering. He demonstrates proficiency in designing, architecting, and developing scalable backend systems using NestJS, Node.js, and Python, and building robust full-stack applications with React. Tushar excels in establishing CI/CD pipelines, optimizing API performance, and implementing secure, efficient solutions. His passion extends to AI/ML, evidenced by achieving Semi-Finalist status in Flipkart Grid 5.0 and selection for the Amazon ML Summer School 2024, showcasing a commitment to cutting-edge technology and innovation.\n\nFor Adizen, this individual has significantly contributed to Business Development initiatives by establishing foundational technical assets and enabling For Trijog, I have significantly contributed to the Zenflow v2 platform, enhancing its functionality\n\nFor Adizen's Business Development epic, this individual has significantly contributed by developing a foundational UI library and For Trijog, I have significantly contributed to the Zenflow v2 platform, developing and",
+  "experience": 2,
   "currentRole": "Software Developer (SDE-1) at Adizen",
   "highlights": [
-    "Architected and developed scalable NestJS backend services with modular architecture and well-defined REST APIs.",
-    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled system design.",
-    "Designed backend systems for a healthcare platform (Trijog) and an ERP system (ERPLite).",
-    "Established CI/CD pipelines using GitHub Actions for improved deployment reliability and system stability.",
-    "Developed a complex video editor from the ground up, handling both frontend and backend development."
+    "Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.",
+    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.",
+    "Designed backend systems for a healthcare platform (Trijog), including booking, invoicing, and communication pipelines.",
+    "Established CI/CD pipelines using GitHub Actions and backend testing workflows, improving deployment reliability and system stability.",
+    "Developed backend modules for an ERP system (ERPLite) with reporting capabilities."
   ],
   "skills": [
+    {
+      "name": "Languages",
+      "skills": [
+        "C++",
+        "Go",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
     {
       "name": "Frameworks",
       "skills": [
@@ -49,8 +59,7 @@
         "Docker",
         "Kubernetes",
         "Azure",
-        "Digital Ocean",
-        "Supabase",
+        "Digital Ocean Supabase",
         "Prometheus"
       ]
     },
@@ -71,7 +80,7 @@
   "projects": [
     {
       "name": "Contest-Saathi",
-      "description": "Contest reminder web application incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer.",
+      "description": "A contest reminder web application incorporating personalized email notifications for real-time updates. Successfully established a dedicated user base of over 50 active subscribers by facilitating timely contest notifications via Nodemailer.",
       "tech": [
         "MongoDB",
         "Node",
@@ -80,22 +89,20 @@
         "JWT",
         "Docker",
         "Azure"
-      ],
-      "demo": "Deployed"
+      ]
     },
     {
       "name": "Insight Terminal",
-      "description": "Cobra-based CLI tool to streamline user interaction with Gemini AI, enhancing command-line efficiency. Integrated advanced natural language processing capabilities of Gemini AI to provide accurate, real-time responses and information retrieval directly within the terminal.",
+      "description": "A Cobra-based CLI tool designed to streamline user interaction with Gemini AI, enhancing command-line efficiency. It integrates advanced natural language processing capabilities of Gemini AI to provide accurate, real-time responses and information retrieval directly within the terminal.",
       "tech": [
         "Go",
         "Cobra CLI",
         "Gemini AI"
-      ],
-      "github": "Link"
+      ]
     },
     {
       "name": "Adizen · BD",
-      "description": "For Adizen, this individual is actively contributing to business development initiatives by understanding client requirements and creating compelling demonstrations",
+      "description": "For Adizen, this individual has significantly contributed to Business Development initiatives by establishing foundational technical assets and enabling",
       "tech": [
         "BD Task"
       ]
@@ -126,11 +133,17 @@
               "status": "in_progress",
               "epicName": "BD",
               "moduleName": "BD Task"
+            },
+            {
+              "name": "Create Adizen UI library and send deck to Jashan",
+              "status": "completed",
+              "epicName": "BD",
+              "moduleName": "BD Task"
             }
           ]
         }
       ],
-      "summary": "For Adizen, this individual is actively contributing to the Business Development (BD) epic, focusing on early"
+      "summary": "For Adizen's Business Development epic, this individual has significantly contributed by developing a foundational UI library and"
     },
     {
       "companyId": 14,
@@ -177,13 +190,13 @@
               "moduleName": "Therapist Persona"
             },
             {
-              "name": "Price Bracket-Based Package Recommendation Engine",
+              "name": "Duplicate Profile Question Removal & Optimization",
               "status": "in_progress",
               "epicName": "Zenflow v2",
               "moduleName": "Client Persona"
             },
             {
-              "name": "Duplicate Profile Question Removal & Optimization",
+              "name": "Price Bracket-Based Package Recommendation Engine",
               "status": "in_progress",
               "epicName": "Zenflow v2",
               "moduleName": "Client Persona"
@@ -267,123 +280,141 @@
               "moduleName": "Corporate HR Persona"
             },
             {
-              "name": "Add Bookings listing under appointment tab",
+              "name": "Create Video for B2C flow",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Admin Persona"
+            },
+            {
+              "name": "2 Whatsapp Number - Client and corporate employee whatsapp no. - Corporate and Corporate POC. NOTE: If POC takes appointment, he will get message related to appointment through Trijog Corporate number",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "Skip duplicate employee details on bulk import - Corporate Share entire corporate details every time not only the new employee",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "Email Zenkro client about ambiguous patient records",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Non Development Task"
+            },
+            {
+              "name": "Send Zenkro Phase 1 completion email",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Non Development Task"
+            },
+            {
+              "name": "Goals of therapy to be mentioned on client dashboard",
               "status": "completed",
               "epicName": "Zenflow v2",
               "moduleName": "Staff Persona"
             },
             {
-              "name": "Add Corporate CST Appointments",
+              "name": "Change Add Client option to Client Details page",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "In pricing - CSE should be able to add final price where discount can be calculated by itself",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "Therapist should be able to edit the slots",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "When a therapist deletes a slot, recurring or today should be an option for them",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "Add Status option under Admin leads page (options - Converted and Not Converted)",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "Remove the grouping logic for session types under package creation",
               "status": "completed",
               "epicName": "Zenflow v2",
               "moduleName": "Business Development Persona"
             },
             {
-              "name": "Add Corporate CST client leads",
+              "name": "Update the Package creation flow as per the requirement",
               "status": "completed",
               "epicName": "Zenflow v2",
               "moduleName": "Business Development Persona"
             },
             {
-              "name": "Form Builder Question Import/create/delete testing",
+              "name": "On corporate HR part, remove the payment details, only to show total amount",
               "status": "completed",
               "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "Remove complementary part logic from Package Creation",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "Test BD team Flows",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "CSE Communication changes",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Staff Persona"
+            },
+            {
+              "name": "Update Package Display: Session Breakdown, Slideover Cleanup, and Invoice Card Format",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            },
+            {
+              "name": "Enhance Package Invoice Slideover: Correct Billing Order, \"Mark as Paid\" Actions, \"Add Notes\", and Document Preview",
+              "status": "completed",
+              "epicName": "Zenflow v2",
+              "moduleName": "Business Development Persona"
+            }
+          ]
+        },
+        {
+          "epicId": 0,
+          "epicName": "Management persona",
+          "tasks": [
+            {
+              "name": "Add Timezone date functionality",
+              "status": "completed",
+              "epicName": "Management persona",
               "moduleName": "Management persona"
             },
             {
-              "name": "Update Package Booking Flow",
+              "name": "Update CRM template message logs",
               "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "Frontend: Update Booking Flow for the Admin side",
-              "status": "completed",
-              "epicName": "Zenflow v2",
+              "epicName": "Admin Persona",
               "moduleName": "Admin Persona"
-            },
-            {
-              "name": "App: Corporate HR Page",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Corporate HR Persona"
-            },
-            {
-              "name": "App: Appointment Frontend Page",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "App: Profile Settings",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "Booking Flow Patient Creation",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Admin Persona"
-            },
-            {
-              "name": "Question Builder Display order bug",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Admin Persona"
-            },
-            {
-              "name": "App: My Health Behaviour Interaction backend",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "App: My health Tab Frontend",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "App: User Dashboard Frontend",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "React Native: Google login setup",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "React Native: OTP less setup",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
-            },
-            {
-              "name": "Frontend: Login",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Corporate HR Persona"
-            },
-            {
-              "name": "Ionic App Setup",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Corporate HR Persona"
-            },
-            {
-              "name": "Backend: Multi-Patient Booking",
-              "status": "completed",
-              "epicName": "Zenflow v2",
-              "moduleName": "Client Persona"
             }
           ]
         }
       ],
-      "summary": "For Trijog, I delivered extensive full-stack development and system integration work across their Zenflow v"
+      "summary": "For Trijog, I have significantly contributed to the Zenflow v2 platform, developing and"
     },
     {
       "companyId": 7,
@@ -416,60 +447,6 @@
               "status": "in_progress",
               "epicName": "YOS 3.0",
               "moduleName": "Backend"
-            },
-            {
-              "name": "Implement automated lead mgmt system",
-              "status": "completed",
-              "epicName": "YOS 3.0",
-              "moduleName": "Backend"
-            },
-            {
-              "name": "Automated lead management software - 1 (Planning)",
-              "status": "completed",
-              "epicName": "YOS 3.0",
-              "moduleName": "Backend"
-            },
-            {
-              "name": "Update WhatsApp template messages",
-              "status": "completed",
-              "epicName": "YOS 3.0",
-              "moduleName": "Backend"
-            },
-            {
-              "name": "YOS Center Stats n8n flow",
-              "status": "completed",
-              "epicName": "YOS 3.0",
-              "moduleName": "Backend"
-            }
-          ]
-        },
-        {
-          "epicId": 60,
-          "epicName": "YOS 2.0",
-          "tasks": [
-            {
-              "name": "Deploy UK system in a different region",
-              "status": "completed",
-              "epicName": "YOS 2.0",
-              "moduleName": "UK Appointment Booking"
-            },
-            {
-              "name": "UK Booking flow Deployment",
-              "status": "completed",
-              "epicName": "YOS 2.0",
-              "moduleName": "UK Appointment Booking"
-            },
-            {
-              "name": "Test: India Booking",
-              "status": "completed",
-              "epicName": "YOS 2.0",
-              "moduleName": "UK Appointment Booking"
-            },
-            {
-              "name": "Communicate with Karthik Ashok for 10 Cases",
-              "status": "completed",
-              "epicName": "YOS 2.0",
-              "moduleName": "AI Integration"
             }
           ]
         },
@@ -478,57 +455,63 @@
           "epicName": "Whatsapp lead mgmt",
           "tasks": [
             {
-              "name": "251102 Add 'Type the number you'd like to talk about' prompt to WhatsApp bot menus",
+              "name": "Create design to HTML template on portfolio builder",
               "status": "completed",
               "epicName": "Whatsapp lead mgmt",
-              "moduleName": "N8n workflows"
+              "moduleName": "Appointment And Payment on Whatsapp"
             },
             {
-              "name": "251102 Optimize WhatsApp bot lead creation latency",
+              "name": "Setup backend for Repo Agent 1",
               "status": "completed",
               "epicName": "Whatsapp lead mgmt",
-              "moduleName": "N8n workflows"
+              "moduleName": "Appointment And Payment on Whatsapp"
+            }
+          ]
+        },
+        {
+          "epicId": 60,
+          "epicName": "YOS 2.0",
+          "tasks": [
+            {
+              "name": "Analytics optimisation for data fetching for more than 6 month",
+              "status": "completed",
+              "epicName": "YOS 2.0",
+              "moduleName": "Analytics & Dashboards"
             },
             {
-              "name": "Meet with RP to demo all flows",
+              "name": "Change Reschedule flow",
               "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "Testing"
+              "epicName": "YOS 2.0",
+              "moduleName": "UK Appointment Booking"
             },
             {
-              "name": "All workflows testing",
+              "name": "Razorpay & Stripe Refund API's",
               "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "Testing"
+              "epicName": "YOS 2.0",
+              "moduleName": "UK Appointment Booking"
             },
             {
-              "name": "Multiple user simultaneously conversing with Bot",
+              "name": "Integration of Refund system",
               "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "Testing"
-            },
+              "epicName": "YOS 2.0",
+              "moduleName": "UK Appointment Booking"
+            }
+          ]
+        },
+        {
+          "epicId": 0,
+          "epicName": "UK Appointment Booking",
+          "tasks": [
             {
-              "name": "Update Firebase Integration sync (Schema)",
+              "name": "Setup Klarna Payment",
               "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "N8n workflows"
-            },
-            {
-              "name": "Chat Context Refinement (RAG setup)",
-              "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "N8n workflows"
-            },
-            {
-              "name": "Update Chat Model based on their response",
-              "status": "completed",
-              "epicName": "Whatsapp lead mgmt",
-              "moduleName": "N8n workflows"
+              "epicName": "UK Appointment Booking",
+              "moduleName": "UK Appointment Booking"
             }
           ]
         }
       ],
-      "summary": "For YOS SPORTS HEALTH SPECIALISTS, I developed and optimized automated backend lead management systems and WhatsApp bot conversation"
+      "summary": "For YOS SPORTS HEALTH SPECIALISTS, this individual significantly enhanced core business operations by integrating multiple payment gateways ("
     },
     {
       "companyId": 9,
@@ -543,65 +526,47 @@
               "status": "in_progress",
               "epicName": "ERP Lite for Adizen",
               "moduleName": "Workflow Upgrades"
+            },
+            {
+              "name": "Research the architecture of Support of Copilot on Project Specific",
+              "status": "completed",
+              "epicName": "ERP Lite for Adizen",
+              "moduleName": "Workflow Upgrades"
             }
           ]
         },
         {
-          "epicId": 77,
-          "epicName": "Adizen v2",
+          "epicId": 68,
+          "epicName": "Zenflow v2",
           "tasks": [
             {
-              "name": "Deployment W5 changes",
+              "name": "BD: Package creation dependent options",
               "status": "completed",
-              "epicName": "Adizen v2",
-              "moduleName": "Development"
+              "epicName": "Zenflow v2",
+              "moduleName": "Corporate HR Persona"
             },
             {
-              "name": "Test task",
+              "name": "Corporate HR: No redirect for corporate numbers",
               "status": "completed",
-              "epicName": "Adizen v2",
-              "moduleName": "Development"
-            },
-            {
-              "name": "Deployment & task review for task completed till 5 pm",
-              "status": "completed",
-              "epicName": "Adizen v2",
-              "moduleName": "Development"
-            },
-            {
-              "name": "251220 Merge 3 ERP Lite PRs; deploy login + Master Planning; enable per-project",
-              "status": "completed",
-              "epicName": "Adizen v2",
-              "moduleName": "Integrations"
-            },
-            {
-              "name": "Slots Booking AI Part - Documentation & Approach",
-              "status": "completed",
-              "epicName": "Adizen v2",
-              "moduleName": "Integrations"
+              "epicName": "Zenflow v2",
+              "moduleName": "Corporate HR Persona"
             }
           ]
         },
         {
-          "epicId": 48,
-          "epicName": "Internal Capabilities",
+          "epicId": 84,
+          "epicName": "Adizen Copilot",
           "tasks": [
             {
-              "name": "test 2",
+              "name": "Plan GitHub indexing architecture for co-pilot",
               "status": "completed",
-              "epicName": "Internal Capabilities",
-              "moduleName": "Testing Learning"
-            },
-            {
-              "name": "251129 Implement Slack reminders and completion notifications; start budget module Mon",
-              "status": "completed",
-              "epicName": "Internal Capabilities",
-              "moduleName": "Testing Learning"
+              "epicName": "Adizen Copilot",
+              "moduleName": "Weekly Standup Capabilities"
             }
           ]
         }
       ],
-      "summary": "For Adizen - ERP Lite, this individual significantly contributed to core ERP development and strategic integrations. Their work"
+      "summary": "For Adizen, this individual significantly contributed to the ERP Lite ecosystem by researching Copilot integration architecture and"
     },
     {
       "companyId": 31,
@@ -615,52 +580,11 @@
               "name": "Send Email to nitin sir on all tasks completed for API Integration",
               "status": "in_progress",
               "epicName": "Project LMS"
-            },
-            {
-              "name": "Communication with Rohit regarding INDoS API",
-              "status": "completed",
-              "epicName": "Project LMS",
-              "moduleName": "Feedback"
-            },
-            {
-              "name": "250916 Optimize login screen/home page for mobile (not full mobile design)",
-              "status": "completed",
-              "epicName": "Project LMS",
-              "moduleName": "CDS | Login and Enrollment"
-            },
-            {
-              "name": "250916 Create documentation FAQ text and host on trijog.com/SMYDJ; coordinate with Nikita to design frontend for text FAQ page and upload link on SMY page",
-              "status": "completed",
-              "epicName": "Project LMS",
-              "moduleName": "LMS Setup"
-            },
-            {
-              "name": "250916 Ask Nikita to design frontend for text FAQ page for SMY and upload link on SMY page",
-              "status": "completed",
-              "epicName": "Project LMS",
-              "moduleName": "LMS Setup"
-            },
-            {
-              "name": "250916 Create detailed video registration documentation for platform onboarding",
-              "status": "completed",
-              "epicName": "Project LMS",
-              "moduleName": "LMS Setup"
-            }
-          ]
-        },
-        {
-          "epicId": 0,
-          "epicName": "General work",
-          "tasks": [
-            {
-              "name": "251025 Complete SMY UI changes; move to Revision SMY; assign to Anurag",
-              "status": "completed",
-              "epicName": "General work"
             }
           ]
         }
       ],
-      "summary": "For Sagar Mein Yog, I contributed to critical LMS development and user experience initiatives. My work encompassed"
+      "summary": "For Sagar Mein Yog's Project LMS, this individual has been instrumental in the API Integration efforts. Their"
     },
     {
       "companyId": 39,
@@ -671,141 +595,107 @@
           "epicName": "HRVZT MVP",
           "tasks": [
             {
-              "name": "Project Handover",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Persona x Function"
-            },
-            {
-              "name": "Testing: Buyer/Seller side Payment",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Persona x Function"
-            },
-            {
-              "name": "Review: Seller Persona Functions",
+              "name": "Create Upload PDF option for geojson file for plotting",
               "status": "completed",
               "epicName": "HRVZT MVP",
               "moduleName": "Seller"
             },
             {
-              "name": "Review: Buyer Persona Functions",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Buyer"
-            },
-            {
-              "name": "Buyer: Marketplace price trend",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Buyer"
-            },
-            {
-              "name": "Review: Buyer Onboarding",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Buyer"
-            },
-            {
-              "name": "Review: Seller Onboarding",
+              "name": "Add Support for PDF Extraction - Cupping score",
               "status": "completed",
               "epicName": "HRVZT MVP",
               "moduleName": "Seller"
-            },
-            {
-              "name": "Review: Marketplace working",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Buyer"
-            },
-            {
-              "name": "251215 Research EUDR fields for coffee/avocado; share w/ Rohan",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Project Scoping"
-            },
-            {
-              "name": "Payment architecture setup",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Buyer"
-            },
-            {
-              "name": "Mention All Persona with their details",
-              "status": "completed",
-              "epicName": "HRVZT MVP",
-              "moduleName": "Persona x Function"
-            }
-          ]
-        },
-        {
-          "epicId": 0,
-          "epicName": "General work",
-          "tasks": [
-            {
-              "name": "251024 Email Rohan/Cian: code summary + report card re: prior tech vendor",
-              "status": "completed",
-              "epicName": "General work"
             }
           ]
         }
       ],
-      "summary": "For HRVZT, I played a pivotal role in the development and review of their MVP, encompassing"
+      "summary": "For HRVZT's MVP, I developed key functionalities to enhance seller data management and input. This"
     },
     {
-      "companyId": 40,
-      "companyName": "Olympeak",
+      "companyId": 49,
+      "companyName": "FinCocktail",
       "epics": [
         {
-          "epicId": 72,
-          "epicName": "Sports and Physio Website",
+          "epicId": 5,
+          "epicName": "FinCocktail X Tata AIG",
           "tasks": [
             {
-              "name": "Update Branding",
+              "name": "Setup Posthog Analytics on buttons",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "Update user (admin, center head, staff) creation backend",
+              "name": "Integrate callbacks for tata aig app",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "Update Logo & user credentials",
+              "name": "Implement and test all share platforms",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "New Deployment Setup Backend",
+              "name": "Setup nginx",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "New Deployment Setup Frontend",
+              "name": "Setup redis in droplet",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "Setup new DB",
+              "name": "Shift from App Platform to droplet",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             },
             {
-              "name": "Update Invoicing Format",
+              "name": "Analytics optimisation for data fetching for more than 6 month",
               "status": "completed",
-              "epicName": "Sports and Physio Website",
-              "moduleName": "Deployment"
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Set up docs"
+            },
+            {
+              "name": "Setup pipeline to Generate Images using Nano Banana",
+              "status": "completed",
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
+            },
+            {
+              "name": "Add Validator Agent",
+              "status": "completed",
+              "epicName": "FinCocktail X Tata AIG",
+              "moduleName": "Development"
             }
           ]
         }
       ],
-      "summary": "For Olympeak's Sports and Physio Website, I executed a comprehensive suite of updates and"
+      "summary": "For FinCocktail's Tata AIG integration, I delivered extensive development, infrastructure,"
+    },
+    {
+      "companyId": 41,
+      "companyName": "Utkarsh Testing",
+      "epics": [
+        {
+          "epicId": 77,
+          "epicName": "Adizen v2",
+          "tasks": [
+            {
+              "name": "DB and backend changes for customer id",
+              "status": "completed",
+              "epicName": "Adizen v2",
+              "moduleName": "Test Module 2"
+            }
+          ]
+        }
+      ],
+      "summary": "For Utkarsh Testing's Adizen v2 epic, I engineered comprehensive database and backend modifications"
     },
     {
       "companyId": 0,
@@ -816,19 +706,14 @@
           "epicName": "General work",
           "tasks": [
             {
-              "name": "251030 Cancel Fri Zenflow meet; schedule Sat follow-up w/ team",
-              "status": "completed",
-              "epicName": "General work"
-            },
-            {
-              "name": "251024 Update form builder UI per wireframes; add validations + config; add routes/form key + JS snippet",
+              "name": "Ring Creation for Gemstone",
               "status": "completed",
               "epicName": "General work"
             }
           ]
         }
       ],
-      "summary": "For Independent, I significantly enhanced their form builder by updating the UI per wireframes, implementing robust validations and"
+      "summary": "For Independent, I successfully completed the intricate ring creation for a gemstone. This comprehensive project involved applying specialized design"
     }
   ]
 }
