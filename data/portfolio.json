@@ -1,0 +1,39 @@
+{
+  "name": "Portfolio Builder",
+  "role": "Developer",
+  "tagline": "Architecting scalable design systems for high-performance enterprise applications.",
+  "about": "Specializes in developing robust design systems for enterprise applications, ensuring consistent user experiences and highly efficient development workflows.",
+  "skills": [
+    {
+      "name": "Frontend",
+      "skills": [
+        "UI/UX Design",
+        "Component Libraries",
+        "Frontend Frameworks",
+        "CSS-in-JS"
+      ]
+    },
+    {
+      "name": "System Design",
+      "skills": [
+        "Design Systems",
+        "Enterprise Software Architecture"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ERPlite V1 - Design System",
+      "description": "Designed and implemented a foundational design system for an ERP application, emphasizing consistency, reusability, and significant streamlining of development workflows for enterprise-grade software.",
+      "tech": [
+        "UI/UX Design",
+        "Component Libraries",
+        "Design Systems Principles"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "portfolio@example.com",
+    "linkedin": "http://localhost:3000/login"
+  }
+}
