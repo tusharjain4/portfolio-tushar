@@ -81,7 +81,7 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
             </div>
             <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
           </div>
-          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">A highly motivated Software Developer with a strong academic background in Electronics and Communication Engineering, complemented by a robust foundation in data structures, algorithms, and object-oriented programming. I specialize in designing and implementing scalable backend services, optimizing API performance, and developing comprehensive full-stack applications. I am committed to delivering…</p>
+          <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is an aspiring Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He possesses a strong foundation in designing and developing scalable backend services, microservices, and full-stack applications. With expertise in Python, JavaScript, and Go, Tushar has a proven track record of architecting modular systems, optimizing API performance, and e…</p>
         </div>
       </div>
     </div>
@@ -164,9 +164,9 @@ function Frame19() {
 function Frame25() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 text-[14px] tracking-[2.38px]">
-      <p className="relative shrink-0">Go</p>
-      <p className="relative shrink-0">Cobra CLI</p>
-      <p className="relative shrink-0">Gemini AI</p>
+      <p className="relative shrink-0">BD Task</p>
+      <p className="relative shrink-0">BD Task</p>
+      <p className="relative shrink-0">BD Task</p>
     </div>
   );
 }
@@ -174,7 +174,7 @@ function Frame25() {
 function Frame24() {
   return (
     <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
-      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Insight Terminal</p>
+      <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Adizen · BD</p>
       <Frame25 />
     </div>
   );
@@ -225,8 +225,8 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Languages</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: C++, Go, Python, JavaScript, TypeScript</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
     </div>
   );
 }
@@ -259,8 +259,8 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
     </div>
   );
 }
@@ -293,8 +293,8 @@ function Frame32() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
     </div>
   );
 }
@@ -327,8 +327,8 @@ function Frame35() {
 function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
-      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Professional Tools</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: BD Task, Send, solitaire, website, (Tushar, to, share, with</p>
     </div>
   );
 }
@@ -426,8 +426,8 @@ function Profile() {
 function TextContent() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start leading-[20px] min-w-px relative text-[15px] text-black" data-name="textContent">
-      <p className="font-['Archivo',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        University of India
+      <p className="font-['Archivo',sans-serif] font-extrabold journey-institution relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+        Adizen
       </p>
       <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         1920 - 1924
@@ -462,7 +462,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.
+        For Adizen, this individual is actively contributing to the Business Development (BD) epic, focusing on early
       </p>
     </div>
   );
@@ -543,8 +543,8 @@ function Profile1() {
 function TextContent1() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start leading-[20px] min-w-px relative text-[15px] text-black" data-name="textContent">
-      <p className="font-['Archivo',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        University of India
+      <p className="font-['Archivo',sans-serif] font-extrabold journey-institution relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+        Trijog
       </p>
       <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         1920 - 1924
@@ -579,7 +579,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Built Python-based microservices for PDF processing and asynchronous workflows.
+        For Trijog, I delivered extensive full-stack development and system integration work across their Zenflow v
       </p>
     </div>
   );
