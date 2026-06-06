@@ -19,7 +19,7 @@ export default function Navbar() {
     <header className="header-container">
       <div className="header-content">
         <div className="logo-section">
-          <h1 className="logo-text">PB</h1>
+          <h1 className="logo-text">TJ</h1>
           <div className="logo-divider" />
           <a href="#" aria-label="Home">
             <img

@@ -2,51 +2,62 @@
 
 import React from 'react';
 
-// The portfolio.json does not contain journey data, so we use template placeholders.
-// The template requires this section to be present.
-const Journey: React.FC = () => {
-  const journeyItems = [
-    {
-      institution: 'University of India',
-      period: '1920 - 1924',
-      description: 'Specializes in developing robust design systems for enterprise applications, ensuring consistent user experiences and highly efficient development workflows.',
-      icon: '/assets/images/img_icon_building_2.svg',
-      line: '/assets/images/img_line_container.svg',
-    },
-    {
-      institution: 'University of India',
-      period: '1920 - 1924',
-      description: 'Specializes in developing robust design systems for enterprise applications, ensuring consistent user experiences and highly efficient development workflows.',
-      icon: '/assets/images/img_icon_building_2.svg',
-      line: '/assets/images/img_line_container.svg',
-    },
-  ];
+interface JourneyProps {
+  currentRole: string;
+  experience: number;
+  about: string;
+  highlights: string[];
+}
 
+const Journey: React.FC<JourneyProps> = ({ currentRole, experience, about, highlights }) => {
   return (
     <section className="journey-section">
       <div className="journey-content">
         <h2 className="journey-title">My Journey</h2>
 
         <div className="journey-list" role="list">
-          {journeyItems.map((item, index) => (
-            <article className="journey-item" role="listitem" key={`journey-item-${index}`}>
+          {/* Journey Item 1: Current Role & Experience */}
+          <article className="journey-item" role="listitem">
+            <div className="journey-header">
+              <div className="journey-icon">
+                <img src="/assets/images/img_icon_building_2.svg" alt="Work icon" />
+              </div>
+              <div className="journey-info">
+                <h3 className="journey-institution">{currentRole}</h3>
+                <p className="journey-period">{experience} years experience</p>
+              </div>
+            </div>
+            <div className="journey-details">
+              <img src="/assets/images/img_line_container.svg" alt="" className="journey-line" />
+              <p className="journey-description">{about}</p>
+            </div>
+          </article>
+
+          {/* Journey Item 2: Highlights */}
+          {highlights.length > 0 && (
+            <article className="journey-item" role="listitem">
               <div className="journey-header">
                 <div className="journey-icon">
-                  <img src={item.icon} alt="University icon" />
+                  <img src="/assets/images/img_icon_building_2.svg" alt="Achievements icon" />
                 </div>
                 <div className="journey-info">
-                  <h3 className="journey-institution">{item.institution}</h3>
-                  <p className="journey-period">{item.period}</p>
+                  <h3 className="journey-institution">Key Achievements</h3>
+                  <p className="journey-period">Recent Highlights</p>
                 </div>
               </div>
               <div className="journey-details">
-                <img src={item.line} alt="" className="journey-line" />
+                <img src="/assets/images/img_line_container.svg" alt="" className="journey-line" />
                 <p className="journey-description">
-                  {item.description}
+                  {highlights.map((highlight, index) => (
+                    <React.Fragment key={index}>
+                      {highlight}
+                      {index < highlights.length - 1 ? '. ' : ''}
+                    </React.Fragment>
+                  ))}
                 </p>
               </div>
             </article>
-          ))}
+          )}
         </div>
       </div>
     </section>

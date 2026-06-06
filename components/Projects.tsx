@@ -1,9 +1,51 @@
 'use client';
 
-export default function Projects() {
-  return (
-    <section id="projects" className="py-20 px-4"><div className="max-w-5xl mx-auto"><h2 className="text-3xl font-bold text-white mb-8">Projects</h2><div className="grid md:grid-cols-2 gap-6">
-            <div key="ERPlite V1 - Design System" className="bg-gray-800 rounded-lg p-6"><h3 className="text-xl font-semibold text-white">ERPlite V1 - Design System</h3><p className="text-gray-400 mt-2">Designed and implemented a foundational design system for an ERP application, emphasizing consistency, reusability, and significant streamlining of development workflows for enterprise-grade software.</p></div>
-          </div></div></section>
-  );
+import React from 'react';
+
+interface Project {
+  name: string;
+  description: string;
+  tech: string[];
 }
+
+interface ProjectsProps {
+  projects: Project[];
+}
+
+const projectImages = [
+  '/assets/images/img_rectangle_369.png',
+  '/assets/images/img_rectangle_369_396x836.png',
+  '/assets/images/img_rectangle_369_1.png', // This image will not be used if only 2 projects are provided
+];
+
+const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+  return (
+    <section className="works-section">
+      <div className="works-content">
+        <h2 className="works-title">My works</h2>
+
+        <div role="list">
+          {projects.map((project, index) => (
+            <article className="project-item" role="listitem" key={project.name}>
+              <div className="project-info">
+                <h3 className="project-title">{project.name}</h3>
+                <div className="project-keywords">
+                  {project.tech.slice(0, 3).map((keyword) => (
+                    <span className="keyword" key={keyword}>
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              {projectImages[index] && (
+                <img src={projectImages[index]} alt={`Project showcase for ${project.name}`} className="project-image" />
+              )}
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

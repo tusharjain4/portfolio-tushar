@@ -38,15 +38,15 @@ export default function Hero() {
           <div className="title-stack">
             <div className="title-role-row">
               {line1 ? (
-                <span className="role-pill role-pill-top title-product">Developer</span>
+                <span className="role-pill role-pill-top title-product">Software Developer</span>
               ) : null}
               {line2 ? (
-                <span className="role-pill role-pill-bottom title-designer">Developer</span>
+                <span className="role-pill role-pill-bottom title-designer">(SDE-1)</span>
               ) : null}
             </div>
-            <p className="title-nikita">Portfolio Builder</p>
+            <p className="title-nikita">Tushar Jain</p>
           </div>
-          {about ? <p className="hero-description">Specializes in developing robust design systems for enterprise applications, ensuring consistent user experiences and highly efficient development workflows.</p> : null}
+          {about ? <p className="hero-description">Leveraging 2.7 years of experience, I am a passionate Software Developer with a strong focus on building robust and scalable full-stack applications. My expertise spans modern web technologies, database management, and cloud platforms. I have a keen interest in AI/ML, demonstrated by achieving Semi-Finalist status in Flipkart Grid 5.0 and being selected for Amazon ML Summer School 2024. I am committed to leveraging technology to solve complex problems and deliver innovative solutions.</p> : null}
         </div>
       </div>
     </section>

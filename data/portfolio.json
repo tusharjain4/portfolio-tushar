@@ -1,39 +1,93 @@
 {
-  "name": "Portfolio Builder",
-  "role": "Developer",
-  "tagline": "Architecting scalable design systems for high-performance enterprise applications.",
-  "about": "Specializes in developing robust design systems for enterprise applications, ensuring consistent user experiences and highly efficient development workflows.",
+  "name": "Tushar Jain",
+  "role": "Software Developer (SDE-1)",
+  "tagline": "Driven Software Developer specializing in full-stack development and scalable solutions.",
+  "about": "Leveraging 2.7 years of experience, I am a passionate Software Developer with a strong focus on building robust and scalable full-stack applications. My expertise spans modern web technologies, database management, and cloud platforms. I have a keen interest in AI/ML, demonstrated by achieving Semi-Finalist status in Flipkart Grid 5.0 and being selected for Amazon ML Summer School 2024. I am committed to leveraging technology to solve complex problems and deliver innovative solutions.",
+  "experience": 2.7,
+  "currentRole": "Software Developer Intern at Adizen",
+  "highlights": [
+    "Collaborated with a team of four to develop an AI/ML-based Flipkart recommender system, achieving Semi-Finalist status in Flipkart Grid 5.0.",
+    "Selected for Amazon ML Summer School 2024."
+  ],
   "skills": [
     {
-      "name": "Frontend",
+      "name": "Languages",
       "skills": [
-        "UI/UX Design",
-        "Component Libraries",
-        "Frontend Frameworks",
-        "CSS-in-JS"
+        "C++",
+        "Go",
+        "Python",
+        "JavaScript",
+        "TypeScript"
       ]
     },
     {
-      "name": "System Design",
+      "name": "Frameworks",
       "skills": [
-        "Design Systems",
-        "Enterprise Software Architecture"
+        "React",
+        "Node",
+        "Next",
+        "Angular",
+        "Express",
+        "Mocha",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Jest",
+        "Material-UI",
+        "FastAPI",
+        "Cypress"
+      ]
+    },
+    {
+      "name": "Databases",
+      "skills": [
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Firebase",
+        "GCP",
+        "NGINX",
+        "Docker",
+        "Kubernetes",
+        "Azure",
+        "Digital Ocean Supabase",
+        "Prometheus"
       ]
     }
   ],
   "projects": [
     {
-      "name": "ERPlite V1 - Design System",
-      "description": "Designed and implemented a foundational design system for an ERP application, emphasizing consistency, reusability, and significant streamlining of development workflows for enterprise-grade software.",
+      "name": "Contest-Saathi",
+      "description": "Developed a dynamic web application providing personalized email notifications for coding contests and real-time updates. Successfully cultivated a dedicated user base of over 50 active subscribers, enhancing engagement and timely participation.",
       "tech": [
-        "UI/UX Design",
-        "Component Libraries",
-        "Design Systems Principles"
+        "MongoDB",
+        "Node",
+        "Express",
+        "React with SSR",
+        "JWT",
+        "Docker",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Insight Terminal",
+      "description": "Engineered a Cobra-based CLI tool to streamline user interaction with Gemini AI, significantly enhancing command-line efficiency. This solution integrates advanced natural language processing capabilities to deliver real-time, intelligent responses directly within the terminal.",
+      "tech": [
+        "Go",
+        "Cobra CLI",
+        "Gemini AI"
       ]
     }
   ],
   "contact": {
-    "email": "portfolio@example.com",
-    "linkedin": "http://localhost:3000/login"
+    "email": "tusharwork4@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tushar-jain4",
+    "github": "https://github.com/Tusharjain123"
   }
 }

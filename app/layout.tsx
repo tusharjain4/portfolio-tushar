@@ -1,17 +1,12 @@
 import './globals.css';
-import {
-  DotGothic16,
-  Manrope,
-  Archivo,
-  Archivo_Narrow,
-  Source_Serif_4,
-} from 'next/font/google';
+import type { Metadata } from 'next';
+import { DotGothic16, Manrope, Archivo, Archivo_Narrow, Source_Serif_4 } from 'next/font/google';
 import portfolioData from '@/data/portfolio.json';
 
 const dotGothic16 = DotGothic16({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-dot-gothic-16',
+  variable: '--font-dotgothic16',
   display: 'swap',
 });
 
@@ -43,22 +38,22 @@ const sourceSerif4 = Source_Serif_4({
   display: 'swap',
 });
 
-export const metadata = {
-  title: `${portfolioData.name} - ${portfolioData.role} Portfolio | UI/UX Design & Creative Work`,
+export const metadata: Metadata = {
+  title: `${portfolioData.name} - ${portfolioData.role} Portfolio`,
   description: portfolioData.tagline,
-  keywords: 'product designer, UI/UX design, portfolio, creative design, web design, Nikita designer', // Keeping template keywords as no specific ones provided
+  keywords: `software developer, full-stack, scalable solutions, ${portfolioData.name}, portfolio`,
   openGraph: {
     type: 'website',
-    title: `${portfolioData.name} - ${portfolioData.role} Portfolio | UI/UX Design`,
+    title: `${portfolioData.name} - ${portfolioData.role} Portfolio`,
     description: portfolioData.tagline,
   },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <head>
@@ -67,7 +62,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@400;600;700&family=Archivo:wght@400;800&family=Archivo+Narrow:wght@500&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet" />
       </head>
       <body
-        className={`${manrope.variable} ${dotGothic16.variable} ${archivo.variable} ${archivoNarrow.variable} ${sourceSerif4.variable}`}
+        className={`${dotGothic16.variable} ${manrope.variable} ${archivo.variable} ${archivoNarrow.variable} ${sourceSerif4.variable}`}
       >
         {children}
       </body>
