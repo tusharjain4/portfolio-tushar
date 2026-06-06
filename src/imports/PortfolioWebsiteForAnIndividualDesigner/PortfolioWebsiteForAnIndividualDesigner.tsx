@@ -8,7 +8,7 @@ import imgRectangle368 from "./41d09c40b70e4eb4850e792a57283db190809a39.png";
 function LogoAppType() {
   return (
     <div className="content-stretch flex gap-[12px] h-[48px] items-center relative shrink-0" data-name="logo{-appType}">
-      <p className="font-['Source_Serif_4:SemiBold',sans-serif] font-semibold leading-none relative shrink-0 text-[42px] text-black tracking-[-1.68px] whitespace-nowrap">TJ</p>
+      <p className="logo-text font-['Source_Serif_4',serif] font-semibold leading-none relative shrink-0 text-[42px] text-black tracking-[-1.68px] whitespace-nowrap">TJ</p>
       <div className="flex h-[31.017px] items-center justify-center relative shrink-0 w-0" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
         <div className="flex-none rotate-90">
           <div className="h-0 relative w-[31.017px]">
@@ -31,7 +31,7 @@ function LogoAppType() {
 
 function PageLinks() {
   return (
-    <div className="content-stretch flex font-['DotGothic16:Regular',sans-serif] gap-[32px] items-start leading-[32px] not-italic relative shrink-0 text-[28px] text-black tracking-[-0.28px] whitespace-nowrap" data-name="pageLinks">
+    <div className="content-stretch flex font-['DotGothic16',sans-serif] gap-[32px] items-start leading-[32px] not-italic relative shrink-0 text-[28px] text-black tracking-[-0.28px] whitespace-nowrap" data-name="pageLinks">
       <p className="relative shrink-0">Home</p>
       <p className="relative shrink-0">Work</p>
       <p className="relative shrink-0">About</p>
@@ -55,103 +55,31 @@ function PersonalOrAgencyWebsiteHeader() {
   );
 }
 
-function Frame11() {
-  return (
-    <div className="bg-[#21279d] content-stretch flex h-full items-center justify-center px-[41px] relative rounded-[30px] shrink-0">
-      <p className="font-['DotGothic16:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[65px] text-white tracking-[-1.3px] whitespace-nowrap">{`Software `}</p>
-    </div>
-  );
-}
-
-function Frame10() {
-  return (
-    <div className="h-[94px] mb-[-19px] relative rounded-[28px] shrink-0 w-full">
-      <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex items-center justify-center px-[24px] py-[8px] relative size-full">
-          <div className="flex flex-row items-center self-stretch">
-            <Frame11 />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Frame13() {
-  return (
-    <div className="bg-[#21279d] content-stretch flex h-full items-center justify-center px-[41px] relative rounded-[30px] shrink-0">
-      <p className="font-['DotGothic16:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[65px] text-white tracking-[-1.3px] whitespace-nowrap">Developer</p>
-    </div>
-  );
-}
-
-function Frame12() {
-  return (
-    <div className="h-[94px] mb-[-19px] relative rounded-[28px] shrink-0 w-full">
-      <div className="flex flex-row items-center justify-end overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex items-center justify-end px-[24px] py-[8px] relative size-full">
-          <div className="flex flex-row items-center self-stretch">
-            <Frame13 />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Frame4() {
-  return (
-    <div className="content-stretch flex flex-col items-end justify-center pb-[19px] relative shrink-0 w-[582px]">
-      <Frame10 />
-      <Frame12 />
-    </div>
-  );
-}
-
-function Frame1() {
-  return (
-    <div className="content-stretch flex h-[169px] items-center justify-between relative shrink-0 w-full">
-      <p className="font-['DotGothic16:Regular',sans-serif] leading-[120px] not-italic relative shrink-0 text-[171px] text-black tracking-[-3.42px] whitespace-nowrap">Hello</p>
-      <Frame4 />
-    </div>
-  );
-}
-
-function Frame() {
-  return (
-    <div className="content-stretch flex font-['DotGothic16:Regular',sans-serif] h-[135px] items-start justify-between leading-[120px] not-italic relative shrink-0 text-[171px] text-black text-center tracking-[-3.42px] w-full whitespace-nowrap">
-      <p className="overflow-hidden relative shrink-0 text-ellipsis">{`I’m `}</p>
-      <p className="overflow-hidden relative shrink-0 text-ellipsis">Tushar Jain</p>
-    </div>
-  );
-}
-
-function Frame3() {
-  return (
-    <div className="content-stretch flex items-center relative shrink-0 w-[266px]">
-      <p className="[text-decoration-skip-ink:none] decoration-solid font-['DotGothic16:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] underline w-[162.699px]">Scroll to explore</p>
-    </div>
-  );
-}
-
-function Frame2() {
-  return (
-    <div className="content-stretch flex gap-[30px] h-[239px] items-end relative shrink-0 w-full">
-      <Frame3 />
-      <div className="flex-[1_0_0] h-[431.447px] min-w-px relative">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle1} />
-      </div>
-      <p className="font-['Manrope:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[24px] text-black text-justify tracking-[-0.48px] w-[494.207px]">A dedicated Software Developer with a strong foundation in data structures, algorithms, and object-oriented programming. Possessing a proven ability to design and implement robust, performance-optimized systems and contribute effectively to complex projects. Recognized for significant achievements in AI/ML-based recommender systems and selected for the prestigious Amazon ML Summer School. Eager to apply advanced technical skills and drive innovation in a challenging development environment.</p>
-    </div>
-  );
-}
-
 function PersonalOrCompanyWebsiteHomePageTitleSection() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[49px] items-start pb-[138px] pt-[48px] relative shrink-0 w-full z-[4]" data-name="Personal or Company Website Home Page Title Section">
-      <Frame1 />
-      <Frame />
-      <Frame2 />
+    <div className="hero-section bg-white content-stretch flex flex-col gap-12 items-start pb-[138px] pt-12 relative shrink-0 w-full z-[4]" data-name="Personal or Company Website Home Page Title Section">
+      <div className="hero-top-row flex flex-wrap items-start justify-between gap-6 w-full">
+        <p className="hero-hello not-italic relative shrink-0 text-black whitespace-nowrap">Hello</p>
+        <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
+          <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+            <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
+          </div>
+          <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+            <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
+          </div>
+        </div>
+      </div>
+      <div className="hero-name-row flex flex-wrap items-baseline justify-between gap-4 w-full not-italic text-black">
+        <p className="hero-im shrink-0">{`I'm `}</p>
+        <p className="title-nikita text-right break-words min-w-0 flex-1">Tushar Jain</p>
+      </div>
+      <div className="hero-bottom-row">
+        <p className="hero-scroll [text-decoration-skip-ink:none] decoration-solid not-italic text-black underline shrink-0">Scroll to explore</p>
+        <div className="hero-image">
+          <img alt="" src={imgRectangle1} />
+        </div>
+        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is a dedicated Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He excels in architecting and deploying scalable backend services, optimizing API performance, and enhancing system efficiency across diverse platforms. His extensive full-stack experience encompasses Python, Node.js, React, and various database technologies. Tushar has a prov…</p>
+      </div>
     </div>
   );
 }
@@ -159,7 +87,7 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
 function Frame20() {
   return (
     <div className="content-stretch flex items-center py-[31px] relative shrink-0 w-full">
-      <p className="font-['DotGothic16:Regular',sans-serif] leading-[68px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My works</p>
+      <p className="font-['DotGothic16',sans-serif] leading-[68px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My works</p>
     </div>
   );
 }
@@ -176,7 +104,7 @@ function Frame16() {
 
 function Frame17() {
   return (
-    <div className="content-stretch flex flex-col font-['Manrope:SemiBold',sans-serif] gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
+    <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
       <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Contest-Saathi</p>
       <Frame16 />
     </div>
@@ -210,7 +138,7 @@ function Frame22() {
 
 function Frame21() {
   return (
-    <div className="content-stretch flex flex-col font-['Manrope:SemiBold',sans-serif] gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
+    <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
       <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Insight Terminal</p>
       <Frame22 />
     </div>
@@ -241,7 +169,7 @@ function Frame25() {
 
 function Frame24() {
   return (
-    <div className="content-stretch flex flex-col font-['Manrope:SemiBold',sans-serif] gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
+    <div className="content-stretch flex flex-col font-['Manrope',sans-serif] font-semibold gap-[29px] items-start leading-[1.2] not-italic relative shrink-0 text-black uppercase whitespace-nowrap">
       <p className="relative shrink-0 text-[24px] tracking-[4.08px]">Insight Terminal</p>
       <Frame25 />
     </div>
@@ -293,8 +221,8 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Languages</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: C++, Go, Python, JavaScript, TypeScript</p>
     </div>
   );
 }
@@ -327,8 +255,8 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
     </div>
   );
 }
@@ -361,8 +289,8 @@ function Frame32() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools & Platforms</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
     </div>
   );
 }
@@ -395,8 +323,8 @@ function Frame35() {
 function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools & Platforms</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
+      <p className="font-['Manrope',sans-serif] font-bold relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
+      <p className="font-['Manrope',sans-serif] font-normal relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
     </div>
   );
 }
@@ -425,7 +353,7 @@ function PortfolioAboutSection1() {
   return (
     <div className="bg-white relative shrink-0 w-full z-[2]" data-name="Portfolio About Section">
       <div className="content-stretch flex gap-[317px] items-start overflow-clip py-[94px] relative rounded-[inherit] size-full">
-        <p className="font-['DotGothic16:Regular',sans-serif] leading-[68px] max-w-[900px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My Skills</p>
+        <p className="font-['DotGothic16',sans-serif] leading-[68px] max-w-[900px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My Skills</p>
         <Frame15 />
       </div>
       <div aria-hidden="true" className="absolute border-b border-black border-solid inset-0 pointer-events-none" />
@@ -494,10 +422,10 @@ function Profile() {
 function TextContent() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start leading-[20px] min-w-px relative text-[15px] text-black" data-name="textContent">
-      <p className="font-['Archivo:ExtraBold',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Archivo',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         University of India
       </p>
-      <p className="font-['Archivo:Regular',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         1920 - 1924
       </p>
     </div>
@@ -529,8 +457,8 @@ function QuoteContainer() {
   return (
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
-      <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Architected and developed scalable backend services using NestJS and Python-based microservices.
+      <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
+        Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.
       </p>
     </div>
   );
@@ -611,10 +539,10 @@ function Profile1() {
 function TextContent1() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start leading-[20px] min-w-px relative text-[15px] text-black" data-name="textContent">
-      <p className="font-['Archivo:ExtraBold',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Archivo',sans-serif] font-extrabold relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         University of India
       </p>
-      <p className="font-['Archivo:Regular',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Archivo',sans-serif] font-normal relative shrink-0 w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         1920 - 1924
       </p>
     </div>
@@ -646,8 +574,8 @@ function QuoteContainer1() {
   return (
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
-      <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Designed backend systems for healthcare platforms, including booking, invoicing, and communication pipelines.
+      <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
+        Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.
       </p>
     </div>
   );
@@ -680,7 +608,7 @@ function PortfolioAboutSection2() {
   return (
     <div className="bg-white relative shrink-0 w-full z-[1]" data-name="Portfolio About Section">
       <div className="content-stretch flex gap-[317px] items-start overflow-clip py-[94px] relative rounded-[inherit] size-full">
-        <p className="font-['DotGothic16:Regular',sans-serif] leading-[68px] max-w-[900px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My Journey</p>
+        <p className="font-['DotGothic16',sans-serif] leading-[68px] max-w-[900px] not-italic relative shrink-0 text-[39px] text-black tracking-[-0.78px] whitespace-nowrap">My Journey</p>
         <Frame37 />
       </div>
       <div aria-hidden="true" className="absolute border-b border-black border-solid inset-0 pointer-events-none" />
@@ -710,7 +638,7 @@ function Container() {
 function PageLinks1() {
   return (
     <div className="content-stretch flex items-start relative shrink-0" data-name="pageLinks">
-      <p className="font-['DotGothic16:Regular',sans-serif] leading-[32px] not-italic relative shrink-0 text-[28px] text-black tracking-[-0.28px] whitespace-nowrap">© {new Date().getFullYear()} Tushar Jain. All rights reserved</p>
+      <p className="font-['DotGothic16',sans-serif] leading-[32px] not-italic relative shrink-0 text-[28px] text-black tracking-[-0.28px] whitespace-nowrap">© {new Date().getFullYear()} Tushar Jain. All rights reserved</p>
     </div>
   );
 }
@@ -719,7 +647,7 @@ function ButtonLarge() {
   return (
     <div className="content-stretch flex items-center justify-center px-[24px] py-[12px] relative shrink-0" data-name="buttonLarge">
       <div aria-hidden="true" className="absolute border border-black border-solid inset-0 pointer-events-none" />
-      <p className="font-['Archivo_Narrow:Medium',sans-serif] font-medium leading-[24px] relative shrink-0 text-[20px] text-black whitespace-nowrap">tusharwork4@gmail.com</p>
+      <p className="font-['Archivo_Narrow',sans-serif] font-medium leading-[24px] relative shrink-0 text-[20px] text-black whitespace-nowrap">tusharwork4@gmail.com</p>
     </div>
   );
 }

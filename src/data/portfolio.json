@@ -1,23 +1,31 @@
 {
   "name": "Tushar Jain",
   "role": "Software Developer",
-  "tagline": "Results-driven Software Developer skilled in architecting and deploying scalable backend services, microservices, and full-stack applications with Node.js, Python, React, and cloud platforms.",
-  "about": "A dedicated Software Developer with a strong foundation in data structures, algorithms, and object-oriented programming. Possessing a proven ability to design and implement robust, performance-optimized systems and contribute effectively to complex projects. Recognized for significant achievements in AI/ML-based recommender systems and selected for the prestigious Amazon ML Summer School. Eager to apply advanced technical skills and drive innovation in a challenging development environment.",
-  "experience": 2.5,
-  "currentRole": "Software Developer (SDE-1)",
+  "tagline": "Results-driven Software Developer specializing in scalable backend systems, full-stack development, and AI/ML, committed to delivering robust and innovative software solutions.",
+  "about": "Tushar Jain is a dedicated Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He excels in architecting and deploying scalable backend services, optimizing API performance, and enhancing system efficiency across diverse platforms. His extensive full-stack experience encompasses Python, Node.js, React, and various database technologies. Tushar has a proven track record of successfully contributing to complex projects, including developing ERP and healthcare platforms, strengthening security protocols, and implementing AI/ML-based recommender systems. His commitment to technical excellence and continuous learning is evidenced by his recognition as a Semi-Finalist in Flipkart Grid 5.0 and selection for the Amazon ML Summer School 2024.",
+  "experience": 2,
+  "currentRole": "Software Developer (SDE-1) at Adizen",
   "highlights": [
-    "Architected and developed scalable backend services using NestJS and Python-based microservices.",
-    "Designed backend systems for healthcare platforms, including booking, invoicing, and communication pipelines.",
-    "Established CI/CD pipelines using GitHub Actions for improved deployment reliability.",
-    "Developed backend modules for ERP and Athlete Management Systems using Node.js and MongoDB.",
-    "Mentored an intern and enforced best practices, maintaining high code quality.",
-    "Designed and implemented a complex video editor, handling both frontend and backend development.",
-    "Strengthened security protocols for chat messaging systems, achieving zero data breaches.",
-    "Enhanced Google Authentication System, reducing login time by 40%.",
-    "Collaborated on an AI/ML-based Flipkart recommender system, achieving Semi-Finalist status.",
+    "Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.",
+    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.",
+    "Designed backend systems for a healthcare platform (Trijog), including booking, invoicing, and communication pipelines.",
+    "Established CI/CD pipelines using GitHub Actions, improving deployment reliability and system stability.",
+    "Optimized API performance and improved frontend-backend integration for better system efficiency.",
+    "Strengthened security protocols and rules of a chat messaging system, resulting in zero data breaches.",
+    "Collaborated on an AI/ML-based Flipkart recommender system, achieving Semi-Finalist status in Flipkart Grid 5.0.",
     "Selected for Amazon ML Summer School 2024."
   ],
   "skills": [
+    {
+      "name": "Languages",
+      "skills": [
+        "C++",
+        "Go",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
     {
       "name": "Frameworks",
       "skills": [
@@ -43,7 +51,7 @@
       ]
     },
     {
-      "name": "Tools & Platforms",
+      "name": "Tools",
       "skills": [
         "Git",
         "GitHub",
@@ -54,8 +62,7 @@
         "Docker",
         "Kubernetes",
         "Azure",
-        "Digital Ocean",
-        "Supabase",
+        "Digital Ocean Supabase",
         "Prometheus"
       ]
     }
@@ -63,7 +70,7 @@
   "projects": [
     {
       "name": "Contest-Saathi",
-      "description": "A web application delivering personalized email notifications for programming contest updates in real-time. Successfully built and maintained a user base of over 50 active subscribers, ensuring timely access to contest information.",
+      "description": "Designed and developed Contest-Saathi, a web application that delivers personalized email notifications for competitive programming contests. This platform ensures real-time updates for users, attracting over 50 active subscribers who rely on it for timely contest information.",
       "tech": [
         "MongoDB",
         "Node",
@@ -71,14 +78,12 @@
         "React with SSR",
         "JWT",
         "Docker",
-        "Azure",
-        "Nodemailer"
-      ],
-      "demo": "Deployed"
+        "Azure"
+      ]
     },
     {
       "name": "Insight Terminal",
-      "description": "A Cobra-based CLI tool designed to streamline user interaction with Gemini AI, significantly enhancing command-line efficiency. Leverages Gemini AI's advanced natural language processing for accurate, real-time responses.",
+      "description": "Developed 'Insight Terminal,' a Cobra-based CLI tool that significantly streamlines user interaction with Gemini AI. It enhances command-line efficiency and leverages advanced natural language processing to deliver accurate, real-time responses and intelligent information retrieval.",
       "tech": [
         "Go",
         "Cobra CLI",

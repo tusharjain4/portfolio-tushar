@@ -1,0 +1,86 @@
+.hero-section {
+  overflow-x: clip;
+}
+
+.hero-hello,
+.hero-im,
+.title-nikita {
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 10vw, 10.6875rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+.hero-name-row {
+  font-family: var(--font-display);
+}
+
+.hero-role-pills .role-pill p {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 4.0625rem);
+  line-height: 1.2;
+}
+
+.hero-role-pills .role-pill-top {
+  align-self: flex-start;
+  margin-left: 1.5rem;
+}
+
+.hero-role-pills .role-pill-bottom {
+  align-self: flex-end;
+  margin-right: 0.75rem;
+}
+
+.hero-scroll {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.5vw, 2.4375rem);
+  max-width: 11rem;
+}
+
+.hero-bottom-row {
+  display: grid;
+  grid-template-columns: auto 1fr minmax(17.5rem, 30.875rem);
+  gap: 1.875rem;
+  align-items: end;
+  width: 100%;
+}
+
+.hero-image {
+  min-width: 0;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  max-height: 20rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.hero-description {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  line-height: 1.5;
+  text-align: justify;
+  min-width: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .hero-bottom-row {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .hero-name-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title-nikita {
+    text-align: left;
+  }
+}
