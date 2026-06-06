@@ -141,7 +141,7 @@ function Frame2() {
       <div className="flex-[1_0_0] h-[431.447px] min-w-px relative">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle1} />
       </div>
-      <p className="font-['Manrope:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[24px] text-black text-justify tracking-[-0.48px] w-[494.207px]">A highly skilled Software Developer adept at designing, implementing, and optimizing scalable systems, REST APIs, and database schemas. Expertise includes architecting robust backend services with NestJS and Python-based microservices, alongside full-stack development using React, Node.js, and MongoDB. Proven track record in establishing CI/CD pipelines, enhancing security protocols, and contributing to complex projects, including AI/ML-based recommender systems. Committed to collaborative teamwork, continuous learning, and delivering high-quality, maintainable code.</p>
+      <p className="font-['Manrope:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[24px] text-black text-justify tracking-[-0.48px] w-[494.207px]">A dedicated Software Developer with a strong foundation in data structures, algorithms, and object-oriented programming. Possessing a proven ability to design and implement robust, performance-optimized systems and contribute effectively to complex projects. Recognized for significant achievements in AI/ML-based recommender systems and selected for the prestigious Amazon ML Summer School. Eager to apply advanced technical skills and drive innovation in a challenging development environment.</p>
     </div>
   );
 }
@@ -361,8 +361,8 @@ function Frame32() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools & Platforms</p>
+      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
     </div>
   );
 }
@@ -395,8 +395,8 @@ function Frame35() {
 function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools & Platforms</p>
+      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean</p>
     </div>
   );
 }
@@ -530,7 +530,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.
+        Architected and developed scalable backend services using NestJS and Python-based microservices.
       </p>
     </div>
   );
@@ -647,7 +647,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.
+        Designed backend systems for healthcare platforms, including booking, invoicing, and communication pipelines.
       </p>
     </div>
   );
