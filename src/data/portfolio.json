@@ -1,16 +1,16 @@
 {
   "name": "Tushar Jain",
   "role": "Software Developer",
-  "tagline": "Backend-focused Software Developer with full-stack experience, building scalable services, optimizing performance, and leveraging AI/ML.",
-  "about": "A Bachelor of Technology candidate in Electronics and Communication Engineering with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in designing and developing scalable backend services using NestJS, Node.js, and Python, implementing CI/CD pipelines, and optimizing API performance. Proven ability to contribute to full-stack development, from architecting systems to enhancing user experiences, with a keen interest in AI/ML applications and robust system design.\n\nFor Adizen, we developed a foundational UI library, providing a consistent and professional design system for their For Trijog, I enhanced their platform by developing a Corporate HR Dashboard, a dedicated corporate employee booking",
+  "tagline": "Building scalable backend services and full-stack solutions with expertise in Python, Node.js, and modern web technologies.",
+  "about": "Tushar Jain is an aspiring Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He possesses strong full-stack development skills, specializing in backend services using Node.js and Python, and has experience with modern web frameworks like React and Next.js. His work includes architecting scalable systems, building microservices, designing database schemas, and implementing CI/CD pipelines. Tushar has also contributed to AI/ML initiatives, demonstrating a diverse skill set in software development and a commitment to high-quality, efficient solutions.\n\nFor Adizen, we successfully developed a comprehensive UI library, providing a standardized set of user interface components to For Trijog, I delivered key enhancements to their platform, focusing on improving corporate client management and",
   "experience": 2,
   "currentRole": "Software Developer (SDE-1) at Adizen",
   "highlights": [
-    "Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.",
-    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.",
+    "Architected and developed scalable backend services using NestJS and Python-based microservices.",
+    "Designed and implemented REST APIs and database schemas using Node.js and MongoDB.",
     "Established CI/CD pipelines using GitHub Actions, improving deployment reliability and system stability.",
-    "Optimized API performance and improved frontend-backend integration for better system efficiency.",
-    "Strengthened security protocols and rules of a chat messaging system, resulting in zero data breaches."
+    "Strengthened security protocols for a chat messaging system, resulting in zero data breaches.",
+    "Optimized API performance and frontend-backend integration for better system efficiency."
   ],
   "skills": [
     {
@@ -80,15 +80,13 @@
   "projects": [
     {
       "name": "Contest-Saathi",
-      "description": "Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer for prompt delivery of reminders and updates.",
-      "tech": [],
-      "demo": "https://www.google.com/search?q=Contest-Saathi"
+      "description": "Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer.",
+      "tech": []
     },
     {
       "name": "Insight Terminal",
       "description": "Cobra-based CLI tool to streamline user interaction with Gemini AI, enhancing command-line efficiency. Integrated advanced natural language processing capabilities of Gemini AI to provide accurate, real-time responses and information retrieval directly within the terminal.",
-      "tech": [],
-      "github": "Link"
+      "tech": []
     },
     {
       "name": "Trijog",
@@ -171,7 +169,7 @@
           ]
         }
       ],
-      "summary": "For Adizen, we developed a foundational UI library, providing a consistent and professional design system for their"
+      "summary": "For Adizen, we successfully developed a comprehensive UI library. This foundational work, complete with a detailed presentation"
     },
     {
       "companyId": 14,
@@ -442,7 +440,7 @@
           ]
         }
       ],
-      "summary": "For Trijog, I enhanced their platform by developing a Corporate HR Dashboard, a dedicated corporate employee booking"
+      "summary": "For Trijog, I delivered key features to enhance their corporate client management and internal operational efficiency."
     },
     {
       "companyId": 7,
@@ -539,7 +537,7 @@
           ]
         }
       ],
-      "summary": "For YOS SPORTS HEALTH SPECIALISTS, I developed and integrated a robust WhatsApp-based system for appointment and"
+      "summary": "For YOS SPORTS HEALTH SPECIALISTS, I optimized their analytics for faster data retrieval and enhanced the UK"
     },
     {
       "companyId": 9,
@@ -594,7 +592,7 @@
           ]
         }
       ],
-      "summary": "For Adizen - ERP Lite, I contributed to enhancing their core platform and developing AI capabilities. This involved"
+      "summary": "For Adizen's ERP Lite, I enhanced the Zenflow v2 platform by implementing"
     },
     {
       "companyId": 31,
@@ -612,7 +610,7 @@
           ]
         }
       ],
-      "summary": "For Sagar Mein Yog's Project LMS, this professional is currently compiling a comprehensive report detailing all completed tasks"
+      "summary": "For Sagar Mein Yog's Project LMS, this professional completed the necessary API integration work. This involved"
     },
     {
       "companyId": 39,
@@ -637,7 +635,7 @@
           ]
         }
       ],
-      "summary": "For HRVZT, I developed key features to streamline data management and input for sellers. This included"
+      "summary": "For HRVZT's MVP, I developed key features to streamline seller data management. This included creating an"
     },
     {
       "companyId": 49,
@@ -704,7 +702,7 @@
           ]
         }
       ],
-      "summary": "For FinCocktail, we significantly enhanced their platform's capabilities and infrastructure, particularly for the"
+      "summary": "For FinCocktail, I developed and implemented key integrations and infrastructure enhancements to support their partnership with Tata A"
     },
     {
       "companyId": 41,
@@ -723,7 +721,7 @@
           ]
         }
       ],
-      "summary": "For Utkarsh Testing's Adizen v2 project, I delivered essential database and backend modifications"
+      "summary": "For Utkarsh Testing's Adizen v2 project, I delivered essential database and backend modifications to"
     },
     {
       "companyId": 0,
@@ -741,7 +739,7 @@
           ]
         }
       ],
-      "summary": "For Independent, I delivered the complete creation of a custom gemstone ring. This involved designing and crafting a unique piece of jewelry, resulting in a new, high-value product ready for sale or client presentation."
+      "summary": "For Independent, I delivered the complete creation of a custom ring, expertly designed to showcase a"
     }
   ]
 }

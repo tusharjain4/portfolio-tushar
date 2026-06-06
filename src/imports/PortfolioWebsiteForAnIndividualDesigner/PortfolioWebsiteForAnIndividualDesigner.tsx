@@ -59,28 +59,28 @@ function PersonalOrCompanyWebsiteHomePageTitleSection() {
   return (
     <div className="hero-section bg-white content-stretch flex flex-col pb-[138px] pt-12 relative shrink-0 w-full z-[4]" data-name="Personal or Company Website Home Page Title Section">
       <div className="hero-content w-full">
-        <p className="hero-hello not-italic relative shrink-0 text-black whitespace-nowrap">Hello</p>
-        <div className="hero-intro-row">
-          <div className="hero-left-stack">
-            <p className="hero-im not-italic relative shrink-0 text-black whitespace-nowrap">{`I'm`}</p>
-            <p className="hero-scroll [text-decoration-skip-ink:none] decoration-solid not-italic text-black underline shrink-0">Scroll to explore</p>
-            <div className="hero-image">
-              <img alt="" src={imgRectangle1} />
+        <div className="hero-greeting-row">
+          <p className="hero-hello not-italic relative shrink-0 text-black whitespace-nowrap">Hello</p>
+          <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
+            <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+              <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
             </div>
-          </div>
-          <div className="hero-title-stack">
-            <div className="hero-role-pills flex flex-col items-end gap-2 shrink-0 max-w-full">
-              <div className="role-pill role-pill-top bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-                <p className="title-product not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Software</p>
-              </div>
-              <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
-                <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
-              </div>
+            <div className="role-pill role-pill-bottom bg-[#21279d] rounded-[30px] px-10 py-2 w-fit max-w-full">
+              <p className="title-designer not-italic relative text-white tracking-[-0.02em] whitespace-nowrap">Developer</p>
             </div>
-            <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
           </div>
         </div>
-        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">A Bachelor of Technology candidate in Electronics and Communication Engineering with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in designing and developing scalable backend services using NestJS, Node.js, and Python, implementing CI/CD pipelines, and optimizing API performance. Proven ability to contribute to full-stack development, from archi…</p>
+        <div className="hero-name-row">
+          <p className="hero-im not-italic relative shrink-0 text-black whitespace-nowrap">{`I'm`}</p>
+          <p className="title-nikita not-italic relative text-black break-words">Tushar</p>
+        </div>
+        <div className="hero-left-meta">
+          <p className="hero-scroll [text-decoration-skip-ink:none] decoration-solid not-italic text-black underline shrink-0">Scroll to explore</p>
+          <div className="hero-image">
+            <img alt="" src={imgRectangle1} />
+          </div>
+        </div>
+        <p className="hero-description font-normal not-italic text-black tracking-[-0.48px]">Tushar Jain is an aspiring Software Developer with a Bachelor of Technology in Electronics and Communication Engineering. He possesses strong full-stack development skills, specializing in backend services using Node.js and Python, and has experience with modern web frameworks like React and Next.js. His work includes architecting scalable systems, building microservices, designing database schem…</p>
       </div>
     </div>
   );
@@ -202,7 +202,7 @@ function PortfolioAboutSection() {
         <div className="content-stretch flex flex-col gap-[18px] items-start text-[14px] tracking-[2.38px]">
           <p className="relative shrink-0 normal-case tracking-[2.38px] text-[14px]">Contest reminder web application</p>
         </div>
-        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer for prompt delivery of reminders and updates.</p>
+        <p className="work-summary mt-5 max-w-xl font-['Manrope',sans-serif] font-normal text-[15px] leading-relaxed text-slate-800 normal-case tracking-normal whitespace-normal">Contest reminder web application, incorporating personalized email notifications for real-time updates. Established a dedicated user base of over 50 active subscribers, benefiting from timely contest notifications facilitated by Nodemailer.</p>
       </div>
       <div className="portfolio-work-image h-[240px] sm:h-[320px] xl:h-[397px] relative shrink-0 w-full xl:w-[min(836px,52%)] z-[1]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle369} />
@@ -616,7 +616,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Adizen, we developed a foundational UI library, providing a consistent and professional design system for their
+        For Adizen, we successfully developed a comprehensive UI library. This foundational work, complete with a detailed presentation
       </p>
     </div>
   );
@@ -730,7 +730,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        For Trijog, I enhanced their platform by developing a Corporate HR Dashboard, a dedicated corporate employee booking
+        For Trijog, I delivered key features to enhance their corporate client management and internal operational efficiency.
       </p>
     </div>
   );
