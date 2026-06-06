@@ -1,34 +1,20 @@
 {
   "name": "Tushar Jain",
   "role": "Software Developer",
-  "tagline": "Driven Software Developer specializing in scalable backend systems, microservices, and full-stack development. Proficient in Python, Node.js, React, and cloud technologies.",
-  "about": "Tushar Jain is an Electronics and Communication Engineering student and a proficient Software Developer with a proven track record in designing and implementing scalable backend services, microservices, and optimizing API performance. Through extensive internship experience and diverse projects, Tushar has delivered robust, efficient solutions for ERP, healthcare platforms, and chat messaging systems. He is proficient in Python, JavaScript, Go, NestJS, and React, with hands-on experience across databases like MongoDB and PostgreSQL, cloud platforms (Azure, GCP), and CI/CD pipelines. Tushar also maintains a keen interest in AI/ML, continuously seeking innovative approaches to complex challenges.",
-  "experience": 1.8,
-  "currentRole": "Software Developer (SDE-1) at Adizen (Expected June 2025)",
+  "tagline": "Versatile Software Developer specializing in scalable backend services, microservices, and full-stack solutions, proficient in robust API design, data management, and deployment automation.",
+  "about": "A highly skilled Software Developer adept at designing, implementing, and optimizing scalable systems, REST APIs, and database schemas. Expertise includes architecting robust backend services with NestJS and Python-based microservices, alongside full-stack development using React, Node.js, and MongoDB. Proven track record in establishing CI/CD pipelines, enhancing security protocols, and contributing to complex projects, including AI/ML-based recommender systems. Committed to collaborative teamwork, continuous learning, and delivering high-quality, maintainable code.",
+  "experience": 2,
+  "currentRole": "Software Developer Intern at Adizen",
   "highlights": [
-    "Architected and developed scalable backend services using NestJS, implementing modular architecture and REST APIs.",
-    "Built Python-based microservices for PDF processing and asynchronous workflows.",
-    "Designed backend systems for a healthcare platform (Trijog), including booking, invoicing, and communication pipelines.",
-    "Established CI/CD pipelines using GitHub Actions, improving deployment reliability.",
-    "Developed backend modules for an ERP system (ERPLite) with reporting capabilities.",
-    "Designed and implemented REST APIs and database schemas using Node.js and MongoDB.",
-    "Optimized API performance and improved frontend-backend integration for system efficiency.",
-    "Strengthened security protocols of a chat messaging system, resulting in zero data breaches.",
-    "Enhanced Google Authentication System, streamlining login process and reducing login time by 40%.",
-    "Collaborated on an AI/ML-based Flipkart recommender system, achieving Semi-Finalist status in Flipkart Grid 5.0.",
+    "Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.",
+    "Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.",
+    "Designed and implemented REST APIs and database schemas using Node.js and MongoDB for various platforms including healthcare and ERP systems.",
+    "Established CI/CD pipelines using GitHub Actions and backend testing workflows, improving deployment reliability and system stability.",
+    "Strengthened security protocols and rules of a chat messaging system, resulting in zero data breaches.",
+    "Collaborated with a team of four to develop an AI/ML-based Flipkart recommender system, achieving Semi-Finalist status in Flipkart Grid 5.0.",
     "Selected for Amazon ML Summer School 2024."
   ],
   "skills": [
-    {
-      "name": "Languages",
-      "skills": [
-        "C++",
-        "Go",
-        "Python",
-        "JavaScript",
-        "TypeScript"
-      ]
-    },
     {
       "name": "Frameworks",
       "skills": [
@@ -43,8 +29,7 @@
         "Jest",
         "Material-UI",
         "FastAPI",
-        "Cypress",
-        "NestJS"
+        "Cypress"
       ]
     },
     {
@@ -55,7 +40,7 @@
       ]
     },
     {
-      "name": "Tools & Platforms",
+      "name": "Tools",
       "skills": [
         "Git",
         "GitHub",
@@ -67,15 +52,14 @@
         "Kubernetes",
         "Azure",
         "Digital Ocean Supabase",
-        "Prometheus",
-        "Nodemailer"
+        "Prometheus"
       ]
     }
   ],
   "projects": [
     {
       "name": "Contest-Saathi",
-      "description": "A web application designed to provide personalized email notifications for real-time contest updates. Successfully built a dedicated user base of over 50 active subscribers by delivering timely contest reminders.",
+      "description": "A web application delivering personalized email notifications for coding contest reminders. Successfully built a dedicated user base of over 50 active subscribers, ensuring timely updates and enhanced engagement through automated notification delivery.",
       "tech": [
         "MongoDB",
         "Node",
@@ -83,14 +67,12 @@
         "React with SSR",
         "JWT",
         "Docker",
-        "Azure",
-        "Nodemailer"
-      ],
-      "demo": "Deployed"
+        "Azure"
+      ]
     },
     {
       "name": "Insight Terminal",
-      "description": "A Cobra-based CLI tool that streamlines user interaction with Gemini AI, significantly enhancing command-line efficiency. It leverages Gemini AI's advanced natural language processing to deliver accurate, real-time responses and information retrieval directly within the terminal.",
+      "description": "A Cobra-based CLI tool designed to streamline user interaction with Gemini AI, significantly enhancing command-line efficiency. Integrates Gemini AI's advanced natural language processing capabilities to deliver accurate, real-time responses and information retrieval directly within the terminal interface.",
       "tech": [
         "Go",
         "Cobra CLI",

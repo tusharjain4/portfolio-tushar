@@ -141,7 +141,7 @@ function Frame2() {
       <div className="flex-[1_0_0] h-[431.447px] min-w-px relative">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle1} />
       </div>
-      <p className="font-['Manrope:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[24px] text-black text-justify tracking-[-0.48px] w-[494.207px]">Tushar Jain is an Electronics and Communication Engineering student and a proficient Software Developer with a proven track record in designing and implementing scalable backend services, microservices, and optimizing API performance. Through extensive internship experience and diverse projects, Tushar has delivered robust, efficient solutions for ERP, healthcare platforms, and chat messaging systems. He is proficient in Python, JavaScript, Go, NestJS, and React, with hands-on experience across databases like MongoDB and PostgreSQL, cloud platforms (Azure, GCP), and CI/CD pipelines. Tushar also maintains a keen interest in AI/ML, continuously seeking innovative approaches to complex challenges.</p>
+      <p className="font-['Manrope:Regular',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[24px] text-black text-justify tracking-[-0.48px] w-[494.207px]">A highly skilled Software Developer adept at designing, implementing, and optimizing scalable systems, REST APIs, and database schemas. Expertise includes architecting robust backend services with NestJS and Python-based microservices, alongside full-stack development using React, Node.js, and MongoDB. Proven track record in establishing CI/CD pipelines, enhancing security protocols, and contributing to complex projects, including AI/ML-based recommender systems. Committed to collaborative teamwork, continuous learning, and delivering high-quality, maintainable code.</p>
     </div>
   );
 }
@@ -293,8 +293,8 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Languages</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: C++, Go, Python, JavaScript, TypeScript</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
+      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
     </div>
   );
 }
@@ -327,8 +327,8 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Frameworks</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: React, Node, Next, Angular, Express, Mocha, Tailwind CSS, Bootstrap, Jest, Material-UI</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
+      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
     </div>
   );
 }
@@ -361,8 +361,8 @@ function Frame32() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Databases</p>
-      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: MongoDB, PostgreSQL</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
+      <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
     </div>
   );
 }
@@ -395,7 +395,7 @@ function Frame35() {
 function Frame36() {
   return (
     <div className="content-stretch flex flex-col gap-[18px] items-start leading-[1.2] not-italic relative shrink-0 text-black text-justify w-full">
-      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools & Platforms</p>
+      <p className="font-['Manrope:Bold',sans-serif] relative shrink-0 text-[24px] tracking-[-0.48px] w-full">Tools</p>
       <p className="font-['Manrope:Regular',sans-serif] relative shrink-0 text-[16px] tracking-[-0.32px] w-full">Tools: Git, GitHub, CI/CD, Firebase, GCP, NGINX, Docker, Kubernetes, Azure, Digital Ocean Supabase</p>
     </div>
   );
@@ -530,7 +530,7 @@ function QuoteContainer() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer />
       <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Architected and developed scalable backend services using NestJS, implementing modular architecture and REST APIs.
+        Architected and developed scalable backend services using NestJS, implementing modular architecture and well-defined REST APIs.
       </p>
     </div>
   );
@@ -647,7 +647,7 @@ function QuoteContainer1() {
     <div className="content-stretch flex gap-[12px] items-start opacity-80 pb-[8px] relative shrink-0 w-full" data-name="Quote Container">
       <LineContainer1 />
       <p className="flex-[1_0_0] font-['Archivo:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[20px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Built Python-based microservices for PDF processing and asynchronous workflows.
+        Built Python-based microservices for PDF processing and asynchronous workflows, enabling decoupled and scalable system design.
       </p>
     </div>
   );
